@@ -12,8 +12,6 @@ The main LaTeX manuscript now directly includes:
 
 Still external/pending before true submission freeze:
 1. final PRISMA counts and flow diagram;
-2. repository URL in the data-availability statement;
 3. corresponding-author email;
-4. final acknowledgement wording;
 5. final authorship confirmation;
 6. final visual compilation check in the target submission template.
