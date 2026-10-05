@@ -12,9 +12,11 @@ The findings indicate that adverse occupational stress is associated with greate
 
 We believe the manuscript is well suited to *Occupational Medicine* because it focuses specifically on employed populations and translates evidence into implications for workplace prevention, screening and health promotion.
 
-The manuscript is original, is not under consideration elsewhere, and has not been published previously in this form. No external funding was received, and the author declares no competing interests.
+The manuscript is original, is not under consideration elsewhere, and has not been published previously in this form. The work developed from an earlier undergraduate thesis on workplace stress, dietary choices, physical activity and metabolic syndrome. For the present submission, the review question and eligibility framework were refined to focus explicitly on working adults, a fresh literature search covering 2015–2026 was undertaken, studies were re-screened, effect estimates were re-extracted, design-specific JBI appraisal was performed, and the manuscript was rewritten for the occupational-health literature. No external funding was received, and no conflicts of interest are declared.
 
 Generative artificial-intelligence tools were used for editorial and organisational assistance during manuscript development. All eligibility decisions, methodological judgments, extracted results, interpretations, and final manuscript content were reviewed by the author against the underlying sources.
+
+The author confirms that the submitted manuscript has been read and approved for submission.
 
 Thank you for considering this manuscript.
 
