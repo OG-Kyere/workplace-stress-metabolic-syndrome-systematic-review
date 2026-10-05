@@ -1,0 +1,215 @@
+\chapter{Appendix}
+\appendix
+\section*{R Code for Data Analysis}
+
+\begin{lstlisting}[language=R, caption={R Script for Test of Association (Chi-Square)}]
+library(readxl)
+
+# Load your dataset
+df <- read_excel("C:/Users/User/Downloads/Cleaned_Study_Data_with_Occupations.xlsx")
+
+# Variable pairs to test
+pairs <- list(
+  c("WORKPLACE", "AGE RANGE"),
+  c("WORKPLACE", "GENDER"),
+  c("WORKPLACE", "DIET TYPE"),
+  c("AGE RANGE", "GENDER"),
+  c("AGE RANGE", "PREVALENT OR INCIDENT RATE"),
+  c("GENDER", "DIETARY ASSESSMENT PATTERN"),
+  c("DIET TYPE", "PREVALENT OR INCIDENT RATE"),
+  c("DURATION", "INTENSITY LEVEL (PHYSICAL ACTIVITY)"),
+  c("MEASURE TOOL USED CATEGORY", "AGE RANGE"),
+  c("PREVALENT OR INCIDENT RATE", "MEASURE TOOL USED CATEGORY")
+)
+
+# Storage for results
+results <- data.frame(
+  Pair = character(),
+  Chi2 = numeric(),
+  p_value = numeric(),
+  df = numeric(),
+  Perc_Expected_Lt5 = numeric(),
+  Min_Expected = numeric(),
+  MonteCarlo_p = numeric(),
+  stringsAsFactors = FALSE
+)
+
+# Loop through pairs
+for (p in pairs) {
+  var1 <- p[1]
+  var2 <- p[2]
+  tab <- table(df[[var1]], df[[var2]])
+  
+  if (nrow(tab) > 1 && ncol(tab) > 1) {
+    chi <- suppressWarnings(chisq.test(tab, correct = FALSE))
+    exp_counts <- chi$expected
+    under5_pct <- sum(exp_counts < 5) / length(exp_counts) * 100
+    min_exp <- min(exp_counts)
+    
+    # Monte Carlo p-value if assumption violated
+    monte_p <- NA
+    if (under5_pct > 20 | min_exp < 1) {
+      chi_mc <- chisq.test(tab, simulate.p.value = TRUE, B = 100000)
+      monte_p <- chi_mc$p.value
+    }
+    
+    results <- rbind(results, data.frame(
+      Pair = paste(var1, "×", var2),
+      Chi2 = chi$statistic,
+      p_value = chi$p.value,
+      df = chi$parameter,
+      Perc_Expected_Lt5 = under5_pct,
+      Min_Expected = min_exp,
+      MonteCarlo_p = monte_p
+    ))
+  } else {
+    results <- rbind(results, data.frame(
+      Pair = paste(var1, "×", var2),
+      Chi2 = NA,
+      p_value = NA,
+      df = NA,
+      Perc_Expected_Lt5 = NA,
+      Min_Expected = NA,
+      MonteCarlo_p = NA
+    ))
+  }
+}
+
+
+
+# View results
+print(results)
+\end{lstlisting}
+
+
+
+\appendix
+\section*{Python Codes for Descriptive Analysis}
+\begin{lstlisting}[language=Python, caption={Jupyter Script for Descriptive Analysis}]
+# LINE CHART - Publication Years
+plt.figure(figsize=(10,6))
+year_counts = df['YEAR OF PUBLICATION'].value_counts().sort_index()
+plt.plot(year_counts.index, year_counts.values, marker='o')
+# plt.title('Number of Publications by Year')
+plt.xlabel('Year')
+plt.ylabel('Number of Publications')
+plt.grid(True)
+plt.show()
+# BAR CHARTS
+def plot_top_bar(column, title, top_n=10):
+    plt.figure(figsize=(12,6))
+    counts = df[column].value_counts().head(top_n)
+    ax = sns.barplot(x=counts.values, y=counts.index, palette='viridis')
+    # plt.title(f'Top {top_n} {title}')
+    plt.xlabel('Count')
+    plt.ylabel(title)
+    
+    # Add data labels
+    for i, v in enumerate(counts.values):
+        ax.text(v + 0.2, i, str(v), color='black')
+    plt.show()
+
+    # Plot distributions
+plot_top_bar('COUNTRY OF CORRESPONDING AUTHOR', 'Countries')
+plot_top_bar('WORKPLACE', 'Workplaces')
+plot_top_bar('TYPE OF STRESS', 'Stress Types')
+plot_top_bar('GENDER', 'Gender Distribution')
+plot_top_bar('DIET TYPE', 'Diet Types')
+plot_top_bar('DESIGN (CLINICAL OR COMPARATIVE STUDY)', 'Study Designs')
+
+# MEASUREMENT TOOLS ANALYSIS
+plt.figure(figsize=(14,8))
+tools = df['MEASURE TOOL USED'].str.split(', ', expand=True).stack()
+tool_counts = tools.value_counts().head(15)
+sns.barplot(x=tool_counts.values, y=tool_counts.index, palette='rocket')
+# plt.title('Top 15 Measurement Tools Used')
+plt.xlabel('Count')
+plt.ylabel('Measurement Tool')
+plt.show()
+
+
+# PHYSICAL ACTIVITY ANALYSIS
+plt.figure(figsize=(12,6))
+activity_counts = df['MEASUREMENT TOOL (PHYSICAL ACTIVITY)'].value_counts()
+sns.barplot(x=activity_counts.values, y=activity_counts.index, palette='mako')
+# plt.title('Physical Activity Measurement Tools')
+plt.xlabel('Count')
+plt.ylabel('Tool')
+plt.show()
+
+# AGE RANGE DISTRIBUTION
+plt.figure(figsize=(10,6))
+age_counts = df['AGE RANGE'].value_counts()
+sns.barplot(x=age_counts.values, y=age_counts.index, palette='flare')
+# plt.title('Age Range Distribution')
+plt.xlabel('Count')
+plt.ylabel('Age Range')
+plt.show()
+
+# OUTPUT KEY STATISTICS
+print("\nKEY STATISTICS:")
+print(f"Total studies: {len(df)}")
+print(f"Earliest publication year: {df['YEAR OF PUBLICATION'].min()}")
+print(f"Latest publication year: {df['YEAR OF PUBLICATION'].max()}")
+print(f"Most common workplace: {df['WORKPLACE'].mode()[0]}")
+print(f"Most studied stress type: {df['TYPE OF STRESS'].mode()[0]}")
+    
+\end{lstlisting}
+
+\section*{Included Studies After Inclusion-Exclusion Criteria}
+\begin{itemize}
+    \item Jahangiry, L., Montazeri, A., Najafi, M., Yaseri, M., \& Farhangi, M. A. (2017). An interactive web-based intervention on nutritional status, physical activity and health-related quality of life in patient with metabolic syndrome: a randomized controlled trial (The Red Ruby Study). \textit{Nutrition \& Diabetes}, 7(1), e260. \url{https://doi.org/10.1038/nutd.2017.12}
+
+    \item Montemayor, S., García-Molina, L., Gómez-Garduño, J., Gámez, J. M., Cano, A., Barberá, A., \ldots, \& Bouzas, C. (2022). Effect of dietary and lifestyle interventions on the amelioration of NAFLD in patients with metabolic syndrome: The FLIPAN study. \textit{Nutrients}, 14(18), 3693. \url{https://doi.org/10.3390/nu14183693}
+
+    \item Normandin, E., Yfanti, C., Malita, F. M., Messier, V., Doucet, É., Rabasa-Lhoret, R., \ldots, \& Brochu, M. (2017). Effect of resistance training and caloric restriction on the metabolic syndrome. \textit{Medicine \& Science in Sports \& Exercise}, 49(2), 413–421. \url{https://doi.org/10.1249/MSS.0000000000001112}
+
+    \item Botoseneanu, A., Chen, H., Ambrosius, W. T., Allore, H. G., Anton, S. D., Folta, S. C., King, A. C., Nicklas, B. J., Spring, B. J., Strotmeyer, E. S., \& LIFE Study Investigators. (2017). Effect of metabolic syndrome on the mobility benefit of a structured physical activity intervention—The lifestyle interventions and independence for elders randomized clinical trial. \textit{Journal of the American Geriatrics Society}, 65(5), 1014–1020. \url{https://doi.org/10.1111/jgs.14812}
+
+    \item Byrd, B. R., Keith, J., Keeling, S. M., Weatherwax, R. M., Nolan, P. B., Ramos, J. S., \& Dalleck, L. C. (2019). Personalized moderate-intensity exercise training combined with high-intensity interval training enhances training responsiveness. \textit{International Journal of Environmental Research and Public Health}, 16(12), 2088. \url{https://doi.org/10.3390/ijerph16122088}
+
+    \item Candás-Estébanez, B., Fernández-Cidón, B., Corbella, E., Tebé, C., Fanlo-Maresma, M., Esteve-Luque, V., Salas-Salvadó, J., Fitó, M., Riera-Mestre, A., Ros, E., \& others. (2024). The impact of the Mediterranean diet and lifestyle intervention on lipoprotein subclass profiles among metabolic syndrome patients: Findings of a randomized controlled trial. \textit{International Journal of Molecular Sciences}, 25(3), 1836. \url{https://doi.org/10.3390/ijms25031836}
+
+    \item Chang, J. S., \& Namkung, J. (2021). Effects of exercise intervention on mitochondrial stress biomarkers in metabolic syndrome patients: A randomized controlled trial. \textit{International Journal of Environmental Research and Public Health}, 18(11), 5577. \url{https://doi.org/10.3390/ijerph18115577}
+
+    \item Folope, V., Meret, C., Castres, I., Tourny, C., Houivet, E., Grigioni, S., Lelandais, H., Petit, A., Coquard, A., Guérin, C., \& others. (2022). Evaluation of a supervised adapted physical activity program associated or not with oral supplementation with arginine and leucine in subjects with obesity and metabolic syndrome: A randomized controlled trial. \textit{Nutrients}, 14(3), 690. \url{https://doi.org/10.3390/nu14030690}
+
+    \item Garthwaite, T., Sjörös, T., Laine, S., Vähä-Ypyä, H., Löyttyniemi, E., Sievänen, H., Houttu, N., Laitinen, K., Kalliokoski, K., Vasankari, T., \& others. (2022). Effects of reduced sedentary time on cardiometabolic health in adults with metabolic syndrome: A three-month randomized controlled trial. \textit{Journal of Science and Medicine in Sport}, 25(8), 672–678. \url{https://doi.org/10.1016/j.jsams.2022.05.009}
+
+    \item Gianturco, V., Gianturco, L., Regnoli, R., Bodini, B. D., Turiel, M., Trapani, M., Bini, F., \& De Angelis, G. (2020). Healthy promotion for fighting metabolic syndrome: Insights from multi-center hero-fit cohort. \textit{International Journal of Environmental Research and Public Health}, 17(17), 6099. \url{https://doi.org/10.3390/ijerph17176099}
+
+    \item Osella, A. R., Colaianni, G., Correale, M., Pesole, P. L., Bruno, I., Buongiorno, C., Deflorio, V., Leone, C. M., Colucci, S. C., Grano, M., \& Giannelli, G. (2018). Irisin serum levels in metabolic syndrome patients treated with three different diets: A post-hoc analysis from a randomized controlled clinical trial. \textit{Nutrients}, 10(7), 844. \url{https://doi.org/10.3390/nu10070844}
+
+    \item Bagnato, C. B., Bianco, A., Bonfiglio, C., Franco, I., Verrelli, N., Carella, N., Shahini, E., Zappimbulso, M., Giannuzzi, V., Pesole, P. L., \& others. (2024). Healthy lifestyle changes improve cortisol levels and liver steatosis in MASLD patients: Results from a randomized clinical trial. \textit{Nutrients}, 16(4), 544. \url{https://doi.org/10.3390/nu16040544}
+
+    \item Reljic, D., Frenk, F., Herrmann, H. J., Neurath, M. F., \& Zopf, Y. (2020). Low-volume high-intensity interval training improves cardiometabolic health, work ability and well-being in severely obese individuals: A randomized-controlled trial sub-study. \textit{Journal of Translational Medicine}, 18(1), 1–13. \url{https://doi.org/10.1186/s12967-020-02481-y}
+
+    \item Kiwata, J. L., Dorff, T. B., Schroeder, E. T., Salem, G. J., Lane, C. J., Rice, J. C., Gross, M. E., \& Dieli-Conwright, C. M. (2017). A pilot randomised controlled trial of a periodised resistance training and protein supplementation intervention in prostate cancer survivors on androgen deprivation therapy. \textit{BMJ Open}, 7(11), e016910. \url{https://doi.org/10.1136/bmjopen-2017-016910}
+
+    \item Nilsson, M. I., Xhuti, D., de Maat, N. M., Hettinga, B. P., \& Tarnopolsky, M. A. (2024). Obesity and metabolic disease impair the anabolic response to protein supplementation and resistance exercise: A retrospective analysis of a randomized clinical trial with implications for aging, sarcopenic obesity, and weight management. \textit{Nutrients}, 16(4), 552. \url{https://doi.org/10.3390/nu16040552}
+
+    \item Cuddy, T. F., Ramos, J. S., \& Dalleck, L. C. (2019). Reduced exertion high-intensity interval training is more effective at improving cardiorespiratory fitness and cardiometabolic health than traditional moderate-intensity continuous training. \textit{International Journal of Environmental Research and Public Health}, 16(3), 483. \url{https://doi.org/10.3390/ijerph16030483}
+
+    \item Suarez-Cuenca, J. A., Diaz-Jimenez, D. E., Pineda-Juarez, J. A., Mendoza-Mota, A. G., Valencia-Aldana, O. D., Nunez-Angeles, S., Vera-Gomez, E., Hernandez-Patricio, A., Loeza-Magana, P., Lara-Vargas, J. A., Arteaga-Martinez, J. R., Garduno-Perez, A. A., Montoya-Ramirez, J., Diaz-Aranda, M. A., Chaparro-Hernandez, R. C., Melchor-Lopez, A., Garcia, S., Gutierrez-Salinas, J., \& Mondragon-Teran, P. (2025). Effect of Mediterranean diet in combination with isokinetic exercise therapy on body composition and cytokine profile in patients with metabolic syndrome. \textit{Nutrients}, 17(1), 200. \url{https://doi.org/10.3390/nu17010200}
+
+    \item Zhao, J., Yasunaga, A., Kaczynski, A. T., Park, H., Luo, Y., Li, J., Shibata, A., Ishii, K., Yano, S., Oka, K., \& others. (2025). At-home immersive virtual reality exergames to reduce cardiometabolic risk among office workers: Protocol for a randomized controlled trial. \textit{JMIR Research Protocols}, 14(1), e51123. \url{https://doi.org/10.2196/51123}
+
+    \item Alfawaz, H. A., Wani, K., Alnaami, A. M., Al-Saleh, Y., Aljohani, N. J., Al-Attas, O. S., Alokail, M. S., Kumar, S., \& Al-Daghri, N. M. (2018). Effects of different dietary and lifestyle modification therapies on metabolic syndrome in prediabetic Arab patients: A 12-month longitudinal study. \textit{Nutrients}, 10(3), 383. \url{https://doi.org/10.3390/nu10030383}
+
+    \item Andersen, E., van der Ploeg, H. P., van Mechelen, W., Gray, C. M., Mutrie, N., van Nassau, F., Jelsma, J. G. M., Anderson, A. S., Silva, M. N., Pereira, H. V., McConnachie, A., Sattar, N., Sørensen, M., Raynesdal, Ø. B., Hunt, K., Roberts, G. C., Wyke, S., \& Gill, J. M. R. (2021). Contributions of changes in physical activity, sedentary time, diet and body weight to changes in cardiometabolic risk. \textit{International Journal of Behavioral Nutrition and Physical Activity}, 18(1), 171. \url{https://doi.org/10.1186/s12966-021-01236-2}
+
+    \item Jovanović, J., Šarac, I., Debeljak-Martačić, J., Petrović-Oggiano, G., Despotović, M., Pokimica, B., \& Cupi, B. (2020). The influence of specific aspects of occupational stress on security guards’ health and work ability: Detailed extension of a previous study. \textit{Arhiv Za Higijenu Rada I Toksikologiju}, 71(4), 305–314. \url{https://doi.org/10.2478/aiht-2020-71-3456}
+
+    \item Shi, J., Liang, Z., Zhang, X., Ren, S., Cheng, Y., Liu, Y., \& Zhang, M. (2023). Association of physical activity and dietary inflammatory index with overweight/obesity in US adults: NHANES 2007–2018. \textit{Environmental Health and Preventive Medicine}, 28, 30. \url{https://doi.org/10.1265/ehpm.22-00243}
+
+    \item Lindberg, C. M., Srinivasan, K., Gilligan, B., Razjouyan, J., Lee, H., Najafi, B., Canada, K. J., Mehl, M. R., Currim, F., Ram, S., Lunden, M. M., Heerwagen, J. H., Kampschroer, K., \& Sternberg, E. M. (2018). Effects of office workstation type on physical activity and stress. \textit{Occupational and Environmental Medicine}, 75(10), 689–695. \url{https://doi.org/10.1136/oemed-2018-105077}
+
+    \item Aboma, M., Tesfaye, G., Kedir, T. R., Yemane, B., \& Alemayehu, W. (2020). Metabolic syndrome among working adults in eastern Ethiopia. \textit{Diabetes, Metabolic Syndrome and Obesity: Targets and Therapy}, 13, 2221–2231. \url{https://doi.org/10.2147/DMSO.S257667}
+
+    \item Yimam, Z. M., Tewodros, Y., \& Abyot, A. (2024). Prevalence of diabetes and associated factors among government employees of Mizan-Aman Town and Zonal Sector Office, Bench Sheko Zone, Southwest Ethiopia Region, 2022. \textit{Diabetes, Metabolic Syndrome and Obesity: Targets and Therapy}, 17, 1–12. \url{https://doi.org/10.2147/DMSO.S443099}
+
+    \item van Zon, S. K. R., Amick III, B. C., de Jong, T., Brouwer, S., \& Bültmann, U. (2020). Occupational distribution of metabolic syndrome prevalence and incidence differs by sex and is not explained by age and health behavior: Results from 75 000 Dutch workers from 40 occupational groups. \textit{BMJ Open Diabetes Research \& Care}, 8(1), e001242. \url{https://doi.org/10.1136/bmjdrc-2019-001242}
+
+    \item Garbarino, S., \& Magnavita, N. (2015). Work stress and metabolic syndrome in police officers. A prospective study. \textit{PloS One}, 10(12), e0144318. \url{https://doi.org/10.1371/journal.pone.0144318}
+\end{itemize}
+
