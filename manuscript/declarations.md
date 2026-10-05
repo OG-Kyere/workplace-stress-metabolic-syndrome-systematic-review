@@ -14,17 +14,13 @@ Ethics approval was not required because this systematic review synthesizes find
 
 ## Data availability
 
-All study-level extraction tables, appraisal files, search documentation, and reproducibility materials used to develop this review are maintained in the associated project repository. The final repository link should be inserted in the submitted manuscript once the submission version is frozen.
+All study-level extraction tables, appraisal files, search documentation, and reproducibility materials used to develop this review are maintained in the project repository: https://github.com/OG-Kyere/workplace-stress-metabolic-syndrome-systematic-review.
 
 ## Author contributions
 
 Gideon Ofosu Kyere conceived the review update, developed the revised workplace-focused eligibility framework, conducted the updated literature search and screening, extracted and synthesized the evidence, performed methodological appraisal, and drafted and revised the manuscript.
 
 > If additional authors or supervisors qualify for authorship before submission, this statement must be revised to reflect their actual contributions.
-
-## Acknowledgements
-
-To be finalized before submission.
 
 ## Use of artificial intelligence
 
