@@ -1,0 +1,31 @@
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[
+  node distance=0.8cm and 1.3cm,
+  box/.style={draw, rounded corners, align=center, text width=5.7cm, minimum height=1.0cm},
+  arrow/.style={->, thick}
+]
+
+\node[box] (id) {Records identified from databases\\PubMed/MEDLINE: \textbf{TBD}\\Other sources: \textbf{TBD}};
+\node[box, below=of id] (dedup) {Records removed before screening\\Duplicates: \textbf{TBD}};
+\node[box, below=of dedup] (screen) {Records screened\\\textbf{TBD}};
+\node[box, right=of screen] (screenex) {Records excluded\\\textbf{TBD}};
+\node[box, below=of screen] (sought) {Reports sought for retrieval\\\textbf{TBD}};
+\node[box, right=of sought] (notret) {Reports not retrieved\\\textbf{TBD}};
+\node[box, below=of sought] (assessed) {Reports assessed for eligibility\\\textbf{TBD}};
+\node[box, right=of assessed] (fullex) {Reports excluded, with reasons\\Wrong population: TBD\\Wrong exposure/intervention: TBD\\Wrong outcome: TBD\\Wrong design/type: TBD\\Protocol/no results: TBD\\Other: TBD};
+\node[box, below=of assessed] (included) {Studies included in review\\\textbf{TBD}\\Reports of included studies: \textbf{TBD}};
+
+\draw[arrow] (id) -- (dedup);
+\draw[arrow] (dedup) -- (screen);
+\draw[arrow] (screen) -- (sought);
+\draw[arrow] (screen) -- (screenex);
+\draw[arrow] (sought) -- (assessed);
+\draw[arrow] (sought) -- (notret);
+\draw[arrow] (assessed) -- (included);
+\draw[arrow] (assessed) -- (fullex);
+
+\end{tikzpicture}
+\caption{PRISMA 2020 flow diagram. All counts remain placeholders until the record-level search library is exported, deduplicated and screened to completion.}
+\label{fig:prisma}
+\end{figure}
