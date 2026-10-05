@@ -4,41 +4,51 @@
 - [x] Target article type identified: Systematic Review.
 - [x] Title shortened to <=10 words.
 - [x] Structured abstract uses Background/Aims/Methods/Results/Conclusions.
-- [x] Teaser text added.
+- [x] Abstract <=250 words (current: 243).
+- [x] Teaser text added and <=75 words (current: 49).
+- [x] Main text comfortably <=5000 words.
+- [x] References <=70 (current active bibliography: 34 records).
 - [x] Numerical citation style configured.
-- [ ] Confirm final abstract <=250 words.
-- [ ] Confirm main text <=5000 words.
-- [ ] Confirm references <=70.
-- [ ] Apply British English consistency pass.
-- [ ] Apply journal P-value and percentage style.
-- [ ] Remove provisional manuscript-status language before submission.
+- [x] Double-anonymized review copy prepared.
+- [x] AI-use disclosure added to manuscript and cover letter.
+- [x] Thesis relationship disclosed in cover letter.
+- [ ] Final British English and punctuation/style pass after PRISMA counts are inserted.
+- [ ] Remove remaining provisional PRISMA-status language before submission.
 
 ## Evidence and reporting
-- [ ] Freeze database search export.
+- [ ] Obtain/freeze complete record-level search export.
 - [ ] Deduplicate records.
 - [ ] Freeze title/abstract screening count.
 - [ ] Freeze full-text exclusions and reasons.
 - [ ] Freeze included study/report count.
 - [ ] Complete PRISMA 2020 flow diagram.
-- [ ] Complete bibliography verification.
-- [ ] Complete JBI appraisal for newly added studies.
-- [ ] Check all manuscript effect estimates against source reports.
+- [x] Active 34-study bibliography reconciled one-to-one.
+- [x] Preliminary design-specific JBI appraisal completed for all active studies.
+- [x] Overlapping cohort/companion-report rules documented.
+- [x] Principal effect estimates extracted for the main narrative synthesis.
+- [ ] Final source check for every manuscript effect estimate before upload.
 
 ## Tables/figures
-- [ ] Table 1: study characteristics.
-- [ ] Table 2: main findings.
-- [ ] Table 3: JBI summary.
-- [ ] Figure 1: PRISMA flow diagram.
-- [ ] Decide whether evidence-map/intervention figure is needed.
-- [ ] Keep total main tables/figures <=6.
-- [ ] Move detailed extraction/JBI item tables to supplementary files.
+- [x] Table 1: study characteristics.
+- [x] Table 2: principal findings.
+- [x] Table 3: JBI appraisal summary.
+- [x] Evidence-map figure.
+- [ ] PRISMA flow diagram.
+- [x] Detailed extraction and item-level JBI moved to supplementary material.
+- [x] Current main display-item count remains within the journal limit.
 
 ## Submission package
-- [ ] Main manuscript.
-- [ ] Supplementary material.
-- [ ] PRISMA checklist.
-- [ ] Cover letter.
-- [ ] Conflict-of-interest statement.
-- [ ] Funding statement.
-- [ ] Data/material availability statement where appropriate.
-- [ ] Author contribution statement if requested by submission system.
+- [x] Blinded main manuscript.
+- [x] Separate title-page content.
+- [x] Supplementary material.
+- [x] Cover letter.
+- [x] Conflict-of-interest wording.
+- [x] Funding statement.
+- [x] Data-availability statement.
+- [x] Author-contribution statement.
+- [x] Figure alt text.
+- [x] Upload manifest.
+- [ ] PRISMA checklist/flow finalized.
+- [ ] Corresponding-author email confirmed.
+- [ ] Final authorship confirmed.
+- [ ] Final compiled visual inspection of manuscript and supplement.
