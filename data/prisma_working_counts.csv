@@ -1,0 +1,11 @@
+stage,count,status,note
+"Records identified from PubMed/MEDLINE",,"UNRESOLVED","Requires auditable database export"
+"Records identified through supplementary searching",,"UNRESOLVED","Requires record-level supplementary-search log"
+"Duplicate records removed",,"UNRESOLVED","Requires deduplication of complete search library"
+"Records screened",,"UNRESOLVED","Cannot reconstruct reliably from final included set"
+"Records excluded at title/abstract stage",,"UNRESOLVED","Requires screening log"
+"Reports sought for retrieval",,"UNRESOLVED","Requires screening log"
+"Reports not retrieved",,"UNRESOLVED","Requires full-text retrieval log"
+"Reports assessed for eligibility",,"UNRESOLVED","Requires screening log"
+"Reports excluded after full text",,"UNRESOLVED","Requires exclusion-reason log"
+"Primary studies in active eligible pool",34,"WORKING","Evidence-extraction pool as of 5 October 2026; not yet final PRISMA count"
