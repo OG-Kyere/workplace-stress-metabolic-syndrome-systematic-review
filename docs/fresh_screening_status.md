@@ -1,3 +1,5 @@
+> **Status: superseded historical snapshot.** This file documents an earlier stage of the review workflow and is retained for audit history only. The current evidence base contains 34 active primary studies. For current status, see `docs/active_study_pool_status.md`, `data/master_study_characteristics_findings.csv`, and `docs/prisma_data_gap_audit.md`.
+
 # Fresh Search Screening — Verified Candidate Set
 
 The fresh workplace-focused search has now identified **23 studies that satisfy the working title/abstract-level inclusion rule**.
