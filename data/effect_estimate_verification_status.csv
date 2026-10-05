@@ -1,0 +1,10 @@
+study,year,manuscript_estimate,verification_status,source_note
+"Garbarino & Magnavita",2015,"aOR 2.68 (95% CI 1.08-6.70)","Verified against full-text/source record","PLOS ONE reports adjusted OR 2.68 with 95% CI approximately 1.07/1.08-6.70 for high work stress and incident MetS."
+"Yamaguchi et al.",2018,"aOR 3.27 (95% CI 1.46-7.34)","Verified against source record","Journal of Occupational Health abstract reports low-to-high job demands vs persistently low adjusted OR 3.27 (95% CI 1.46-7.34)."
+"Kuwahara et al.",2016,"HR 0.74 (95% CI 0.62-0.89); HR 0.81 (0.69-0.96)","Verified against PubMed abstract","PubMed reports HR 0.74 for 7.5 to <16.5 MET-h/week and 0.81 for >=16.5 MET-h/week for mixed moderate/vigorous leisure exercise."
+"Motuma et al.",2020,"APR 2.29 (95% CI 1.88-2.80); fruit/vegetable APR 0.04 (0.01-0.27)","Verified against PubMed abstract","PubMed reports APR 2.29 for >=8 h sedentary behaviour and APR 0.04 for >=5 fruit/vegetable servings/day."
+"Haufe et al.",2019,"Between-group MetS severity difference -0.26 (95% CI -0.35 to -0.16)","Pending direct source-line verification","Bibliographic identity and trial record verified; exact effect estimate retained from prior extraction pending direct source-text confirmation."
+"Browne et al.",2017,"MetS OR 0.52 (95% CI 0.27-0.98)","Pending direct source-line verification","Bibliographic identity verified; exact OR retained from prior extraction pending direct source-text confirmation."
+"Ma et al.",2025,"FBG -0.72; TC -1.49; LDL -0.65; WC -7.73; BMI -2.01; HDL +0.13","Pending direct source-line verification","Current values originate from prior abstract extraction; retain but verify directly before final upload."
+"Bogale et al.",2025,"WC -5.33 cm; SBP -6.96; DBP -4.21; TC -34.12; LDL -20.68","Pending direct source-line verification","Current values originate from prior source extraction; direct final check still required."
+"Ayeltigah et al. military",2026,"OR 6.472 (95% CI 1.535-27.292)","Pending direct source-line verification","Estimate retained from prior abstract extraction; direct final check still required."
