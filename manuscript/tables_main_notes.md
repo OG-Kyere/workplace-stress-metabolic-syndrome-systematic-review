@@ -12,4 +12,4 @@ The main-paper findings table intentionally emphasizes studies with verified qua
 
 The main-paper JBI table summarizes appraisal patterns by design instead of reproducing every checklist item. Detailed item-level judgments belong in Supplementary Material.
 
-Current design counts are generated from the corrected master table. Newly identified studies that have not yet undergone full item-level JBI appraisal are explicitly labelled pending rather than being assigned inferred quality ratings.
+Current design counts are generated from the corrected master table. All six studies identified during the later search-expansion pass have now undergone preliminary item-level JBI appraisal. Any remaining uncertainty is represented within individual checklist judgments rather than by leaving entire studies unappraised.
