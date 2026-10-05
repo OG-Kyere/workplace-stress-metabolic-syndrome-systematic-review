@@ -2,7 +2,7 @@
 
 ## Analytical cross-sectional group
 
-Sixteen studies were appraised using the JBI analytical cross-sectional framework.
+Seventeen studies were appraised using the JBI analytical cross-sectional framework.
 
 At this preliminary stage, most studies show a generally sound structure:
 - clearly defined occupational populations;
@@ -16,9 +16,9 @@ The main caveat is that this first-pass table is based on source-level methodolo
 
 ## Quasi-experimental group
 
-Four workplace interventions were appraised using the JBI quasi-experimental framework.
+Five workplace interventions were appraised using the JBI quasi-experimental framework.
 
-A consistent limitation across this group is the absence of a randomized concurrent control group.
+A recurring limitation across this group is nonrandomized allocation; several interventions also lack a randomized concurrent control group.
 
 This does not make them unusable, but it raises susceptibility to:
 - secular trends;
@@ -34,3 +34,8 @@ Follow-up completeness remains **Unclear** where the accessible report did not e
 The appraisal tables are not intended to produce a simplistic numerical 'quality score'.
 
 Instead, the pattern of strengths and weaknesses will be used in the narrative synthesis and Discussion, with stronger causal weight given to randomized and prospective evidence than to cross-sectional or uncontrolled intervention evidence.
+
+
+## Later-added studies
+
+The analytical cross-sectional group now includes Huang et al. (2017), and the quasi-experimental group now includes the Kim et al. BEST controlled nonrandomized trial (2015). Both have undergone preliminary item-level appraisal.
