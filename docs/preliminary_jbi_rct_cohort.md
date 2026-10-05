@@ -2,7 +2,7 @@
 
 ## Scope
 
-This file documents the first-pass JBI appraisal of the 3 randomized trials and 5 cohort/longitudinal studies in the current included set.
+This file documents the first-pass JBI appraisal of the 6 randomized trials and 6 cohort/longitudinal studies in the current included set.
 
 Detailed item-level tables are stored in:
 
@@ -28,7 +28,7 @@ The completed Ethiopian trial is cluster-randomized and single-masked. The maski
 
 ## Cohort observations
 
-The five cohort/longitudinal studies generally have strong structural features:
+The six cohort/longitudinal studies generally have strong structural features:
 - clearly defined worker populations;
 - prospective outcome ascertainment;
 - explicit confounder adjustment;
@@ -44,3 +44,8 @@ The main unresolved domains are usually:
 No study has been assigned a numeric total or a final 'low/moderate/high risk' label at this stage.
 
 The final appraisal will be locked only after the remaining full-method details are verified.
+
+
+## Later-added studies
+
+The appraisal set now also includes Choi et al. (2017), Fang et al. (2019), Park & Hwang (2024), and Schilling et al. (2020). These studies have undergone preliminary item-level JBI appraisal and are included in the corresponding CSV files. Schilling et al. is treated as a prospective cohort with the caveat that participants were not required to be free of metabolic syndrome at baseline.
