@@ -1,0 +1,29 @@
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.run.xml
+*.bcf
+
+# Temporary/editor files
+~$*
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local IDE/settings
+.vscode/
+.idea/
+
+# Generated output folders
+build/
