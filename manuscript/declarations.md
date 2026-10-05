@@ -6,7 +6,7 @@ No external funding was received for this systematic review.
 
 ## Conflicts of interest
 
-The author declares no competing interests.
+None declared.
 
 ## Ethics approval
 
