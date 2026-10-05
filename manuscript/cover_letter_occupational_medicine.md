@@ -14,6 +14,8 @@ We believe the manuscript is well suited to *Occupational Medicine* because it f
 
 The manuscript is original, is not under consideration elsewhere, and has not been published previously in this form. No external funding was received, and the author declares no competing interests.
 
+Generative artificial-intelligence tools were used for editorial and organisational assistance during manuscript development. All eligibility decisions, methodological judgments, extracted results, interpretations, and final manuscript content were reviewed by the author against the underlying sources.
+
 Thank you for considering this manuscript.
 
 Yours sincerely,
