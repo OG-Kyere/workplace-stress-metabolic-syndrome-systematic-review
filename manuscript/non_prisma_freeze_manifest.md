@@ -2,6 +2,10 @@
 
 Freeze date: 6 October 2026.
 
+Authoritative freeze branch: `freeze/non-prisma-2026-10-06-v2`.
+
+Earlier snapshot retained for audit history: `freeze/non-prisma-2026-10-06`.
+
 This manifest records the current Git blob identities for the manuscript components that are considered **frozen except for PRISMA insertion, final author metadata, or source-supported corrections**.
 
 ## Frozen core files
