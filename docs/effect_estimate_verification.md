@@ -23,3 +23,20 @@ The following high-priority estimates have now also been checked directly agains
 ## Remaining final-check targets
 
 Other quantitative values shown in Table 2 should still receive direct source-level confirmation before submission.
+
+
+## Additional Table 2 rows verified
+
+The following displayed results are now also source-locked:
+- van Zon et al. (2020): HR 1.94 (1.26–3.00) for male stationary plant/machine operators and HR 1.80 (1.01–3.22) for female food-preparation assistants.
+- Runge et al. (2021): OR 1.24 (1.12–1.37) for low-skilled white-collar and OR 1.37 (1.18–1.59) for low-skilled blue-collar workers.
+- Eftekhari et al. (2021): OR 1.51 (1.25–1.82) for office workers and OR 1.74 (1.41–2.14) for service personnel versus clinical staff.
+- Sharifi et al. (2025): moderation-score associations with MetS and components match the manuscript extraction.
+- Earnest & Church (2015): MetS prevalence reduced from 43% to 30% in women and 52% to 26% in men.
+- Kim et al. BEST (2015): group-by-time p values for weight, visceral fat, and waist circumference match the manuscript extraction.
+- Huang et al. (2017): leisure-time PA OR 0.76 (0.62–0.95) for MetS.
+- So et al. (2025): body weight, blood pressure, and triglyceride improvements sustained at 1 year (P<0.01).
+
+## Important correction from full-text verification
+
+Zhang et al. (2024) was corrected across the master table, Table 2, and Results text. The study did not show an overall association between occupational stress and MetS after adjustment; significant associations were limited to selected stress dimensions and specific MetS components.
