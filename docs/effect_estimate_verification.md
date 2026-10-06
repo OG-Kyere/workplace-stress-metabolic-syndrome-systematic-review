@@ -40,3 +40,18 @@ The following displayed results are now also source-locked:
 ## Important correction from full-text verification
 
 Zhang et al. (2024) was corrected across the master table, Table 2, and Results text. The study did not show an overall association between occupational stress and MetS after adjustment; significant associations were limited to selected stress dimensions and specific MetS components.
+
+
+## Final priority Table 2 checks
+
+The remaining high-priority displayed rows have now been checked:
+
+- Ryu et al. (2017): waist circumference 89.96 to 86.93 cm, fasting glucose 93.44 to 84.56, and MetS prevalence 41.5% to 31.7% are confirmed from the full text.
+- Choi et al. (2017): SBP p=0.003, DBP p=0.037, and triglycerides p=0.019 are confirmed.
+- Fang et al. (2019): the manuscript correctly uses a qualitative statement only; the abstract confirms fewer MetS risk factors and lower triglycerides, total cholesterol and LDL.
+- Schilling et al. (2020): cardiorespiratory fitness beta=-0.38 for lower follow-up MetS risk is confirmed; work stress and physical activity did not show main effects.
+- Park & Hwang (2024): the manuscript correctly uses a qualitative p<0.05 statement for improved physical and physiological indicators.
+
+### Table 2 verification status
+
+All quantitative or directional findings currently displayed in the priority Table 2 have now received direct source-level verification or, where the accessible source provides no numeric effect size, have been deliberately retained as qualitative statements rather than over-specified.
