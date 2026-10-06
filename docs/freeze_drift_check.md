@@ -1,10 +1,10 @@
 # Freeze drift check
 
-The non-PRISMA manuscript was frozen on 6 October 2026.
+The authoritative polished non-PRISMA manuscript freeze is the v2 snapshot from 6 October 2026. The earlier non-v2 branch is retained only as audit history.
 
 A dedicated branch preserves that snapshot:
 
-`freeze/non-prisma-2026-10-06`
+`freeze/non-prisma-2026-10-06-v2`
 
 To check whether locked files have drifted on `main`, run:
 
