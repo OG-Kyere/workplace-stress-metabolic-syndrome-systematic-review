@@ -8,22 +8,24 @@ Preferred journal: **Occupational and Environmental Medicine (BMJ)**
 - [x] Critical appraisal performed.
 - [x] Main text below 4,500 words.
 - [x] References below 60.
-- [x] Main display-item count can remain at 5 once PRISMA is added.
+- [x] Current display-item count can remain at 5 once PRISMA is added.
 - [x] Occupational-health relevance is explicit.
-- [x] No mandatory APC under the subscription route.
+- [x] No mandatory APC under the standard subscription route.
+- [x] OEM uses single-anonymised peer review; author identity need not be hidden.
+- [x] OEM-specific key-message draft prepared.
+- [x] OEM-style Objectives/Methods/Results/Conclusions abstract variant prepared.
 
 ## Required after PRISMA completion
-- [ ] Add OEM key-message box:
-  - What is already known on this topic
-  - What this study adds
-  - How this study might affect research, practice or policy
-- [ ] Confirm the exact abstract headings required for systematic reviews.
-- [ ] Replace Occupational Medicine-specific teaser/front-matter language if OEM does not require it.
+- [ ] Insert final PRISMA counts and flow figure.
+- [ ] Replace the generic manuscript front matter with the OEM wrapper.
+- [ ] Insert OEM key messages after the abstract.
+- [ ] Remove the Occupational Medicine teaser from the OEM submission copy.
 - [ ] Retarget cover letter to OEM.
-- [ ] Update submission manifest.
-- [ ] Update conflict/funding/data-availability wording to BMJ format.
-- [ ] Recheck word count and display count.
-- [ ] Perform final OEM-specific style pass.
+- [ ] Restore author-identifying metadata in the OEM submission copy.
+- [ ] Update Data Availability wording for BMJ/OEM.
+- [ ] Recheck exact P-value style against source availability.
+- [ ] Recheck word count and display-item count.
+- [ ] Perform final OEM-specific visual/style pass.
 
 ## Do not change yet
 The frozen scientific content should remain unchanged until the PRISMA record-level counts are resolved.
