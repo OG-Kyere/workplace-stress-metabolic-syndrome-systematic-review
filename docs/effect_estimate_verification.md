@@ -1,6 +1,6 @@
 # Effect-estimate verification policy
 
-The manuscript contains both source-verified and still-pending quantitative estimates.
+The priority quantitative and directional findings displayed in Table 2 have now been source-checked. Some lower-priority extraction fields elsewhere in the repository may still lack full numeric extraction, but they are not presented as locked principal estimates in Table 2.
 
 ## Source-verified in the current pass
 - Garbarino & Magnavita (2015): adjusted OR 2.68 for incident MetS.
