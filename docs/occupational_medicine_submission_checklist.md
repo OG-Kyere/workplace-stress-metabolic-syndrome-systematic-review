@@ -12,7 +12,7 @@
 - [x] Double-anonymized review copy prepared.
 - [x] AI-use disclosure added to manuscript and cover letter.
 - [x] Thesis relationship disclosed in cover letter.
-- [ ] Final British English and punctuation/style pass after PRISMA counts are inserted.
+- [x] British-English and core statistical-style pass completed; rerun once after final PRISMA insertion.
 - [ ] Remove remaining provisional PRISMA-status language before submission.
 
 ## Evidence and reporting
