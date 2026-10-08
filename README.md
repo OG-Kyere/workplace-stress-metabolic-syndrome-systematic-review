@@ -1,15 +1,17 @@
 # Workplace Determinants of Metabolic Syndrome in Working Adults
 
-Updated systematic review examining occupational stress, diet and workplace nutrition, physical activity and sedentary behaviour, and workplace lifestyle interventions in relation to metabolic syndrome (MetS) among working adults.
+This repository contains an updated systematic review of workplace factors linked with metabolic syndrome (MetS) in working adults. The review covers occupational stress, diet and workplace nutrition, physical activity and sedentary behaviour, and multicomponent workplace lifestyle interventions.
+
+It also preserves the original undergraduate review so the historical work and the newer journal workflow remain clearly separated.
 
 ## Current review status
 
-This repository contains both:
+Two versions of the project live in this repository:
 
-1. the **archived undergraduate thesis source**, preserved for transparency; and
-2. the **updated journal manuscript workflow**, which uses a revised workplace-focused eligibility framework and a fresh literature search extending through 2026.
+1. the **archived undergraduate thesis source**, kept for transparency;
+2. the **updated journal-manuscript workflow**, based on a revised workplace-focused eligibility framework and a new literature search extending through 2026.
 
-The current journal manuscript is being prepared for submission to **Occupational Medicine**.
+The current manuscript is being prepared for submission to **Occupational Medicine**.
 
 ### Current evidence base
 
@@ -21,19 +23,20 @@ The current journal manuscript is being prepared for submission to **Occupationa
 - **Critical appraisal:** design-specific Joanna Briggs Institute tools
 - **Synthesis:** narrative, organized by occupational stress, diet/nutrition, physical activity/sedentary behaviour, and multicomponent workplace interventions
 
-The **34-study pool is not yet the final PRISMA included-study count** because the complete record-level search export and deduplication library are not available in the repository. PRISMA counts are intentionally not reconstructed from memory.
+The **34-study pool is not yet the final PRISMA included-study count**. The complete record-level search export and deduplication library are not available in the repository, so PRISMA counts are intentionally not being reconstructed from memory.
 
 ## Historical undergraduate review
 
 The archived thesis reported:
-- 1,214 records identified;
-- 27 included studies;
-- searches using PubMed/MEDLINE, Scopus, and ScienceDirect;
-- a 2015–2025 review window.
 
-Those historical numbers belong to the undergraduate review only and **must not be reused as the PRISMA flow for the updated 2026 manuscript**.
+- 1,214 records identified
+- 27 included studies
+- searches using PubMed/MEDLINE, Scopus, and ScienceDirect
+- a 2015–2025 review window
 
-The original thesis files are retained under `thesis_source/`.
+Those numbers belong to the undergraduate review only. They should **not** be reused as the PRISMA flow for the updated 2026 manuscript.
+
+The original thesis files are stored under `thesis_source/`.
 
 ## Working manuscript title
 
@@ -58,18 +61,18 @@ The original thesis files are retained under `thesis_source/`.
 - `manuscript/tables_main.tex` — main Tables 1–3
 - `manuscript/evidence_map_figure.tex` — evidence-map figure
 - `manuscript/references_verified.bib` — bibliography aligned to the active 34-study pool
-- `manuscript/supplementary_material.tex` — search strategy, full extraction table, item-level JBI appraisal
-- `manuscript/title_page.md` — separate identifying title-page content
+- `manuscript/supplementary_material.tex` — search strategy, full extraction table, and item-level JBI appraisal
+- `manuscript/title_page.md` — separate identifying title page
 - `manuscript/cover_letter_occupational_medicine.md` — target-journal cover letter
 - `manuscript/submission_upload_manifest.md` — upload map for the submission system
 
 ## PRISMA reproducibility
 
-A record-level screening template is provided at:
+A record-level screening template is available at:
 
 `data/screening_log_template.csv`
 
-When the complete search export is available:
+Once the complete search export is available:
 
 1. copy the template to `data/screening_log.csv`;
 2. enter every identified record, including duplicates;
@@ -85,37 +88,38 @@ The script generates `data/prisma_generated_counts.csv` and refuses to freeze in
 ## Methodological safeguards
 
 The updated review deliberately:
-- separates historical thesis counts from the current review;
-- avoids inferring missing PRISMA numbers;
+
+- keeps the historical thesis counts separate from the current review;
+- does not infer missing PRISMA numbers;
 - links overlapping cohorts and companion reports;
 - prefers adjusted estimates where available;
 - prefers between-group effects for intervention studies;
 - uses design-specific JBI appraisal without arbitrary summed quality scores;
 - avoids causal language for cross-sectional evidence;
-- retains full study-level extraction and appraisal details in supplementary material.
+- keeps full study-level extraction and appraisal details in the supplementary material.
 
 ## Authorship
 
 The archived undergraduate thesis involved multiple student contributors.
 
-**Final authorship of the journal manuscript is not yet frozen.**  
-The current submission files should therefore be treated as provisional until authorship eligibility and contribution statements are finalized.
+**Final authorship of the journal manuscript is not yet frozen.** The current submission files should therefore be treated as provisional until authorship eligibility and contribution statements are finalized.
 
 ## Data and reproducibility
 
-The repository contains:
-- the active-study master table;
-- design classification;
-- study-level effect extraction;
-- JBI appraisal files;
-- bibliographic identity corrections;
-- bibliography-to-study audit;
-- PRISMA completion protocol;
-- submission-readiness and anonymization checks.
+The repository includes:
+
+- the active-study master table
+- design classification
+- study-level effect extraction
+- JBI appraisal files
+- bibliographic identity corrections
+- bibliography-to-study audit
+- PRISMA completion protocol
+- submission-readiness and anonymization checks
 
 ## Archived-source note
 
-The historical thesis source references an `abbreviations.tex` file that was not present in the archived package. The archive is preserved as supplied rather than silently reconstructing the missing file.
+The historical thesis source references an `abbreviations.tex` file that was not present in the archived package. The archive is kept as supplied rather than silently reconstructing the missing file.
 
 ## License
 
