@@ -1,0 +1,26 @@
+{
+  "all184_source_capture_complete": true,
+  "all184_clinical_extraction_complete": false,
+  "reports": 184,
+  "source_and_packet_hashes_verified": 184,
+  "format_counts": {
+    "XML": 162,
+    "HTML": 10,
+    "PDF": 12
+  },
+  "actual_xml_in_source_files": 37,
+  "candidate_rows": 5521,
+  "reports_with_machine_candidate_rows": 165,
+  "parse_failures": 0,
+  "current_status_counts": {
+    "No machine candidate table rows; narrative/figure/manual review required": 17,
+    "Machine candidate tables captured; clinical validation outstanding": 164,
+    "Specified PDF findings visually checked198; full extraction incomplete": 3
+  },
+  "new_visually_checked_pdf_rows": 33,
+  "new_visually_checked_pdf_reports": 3,
+  "overall_specified_report_coverage": 162,
+  "available_originals_without_specified_rows": 181,
+  "deferred_original_source_gaps": 45,
+  "independent_reviews_completed": 0
+}

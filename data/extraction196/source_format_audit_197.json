@@ -1,0 +1,10 @@
+{
+  "original_reports": 343,
+  "actual_formats": {
+    "XML": 267,
+    "HTML": 36,
+    "PDF": 40
+  },
+  "xml_source_suffix": 62,
+  "normalized_result_coverage_changed": false
+}

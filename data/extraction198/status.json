@@ -1,0 +1,15 @@
+{
+  "new_specified_rows": 33,
+  "reports": 3,
+  "visually_inspected_pdf_pages": 3,
+  "new_rows_by_report": {
+    "SR141-0104": 12,
+    "SR141-0198": 9,
+    "SR141-0214": 12
+  },
+  "reports_with_specified_rows_in_expanded_ledgers": 162,
+  "available_originals_without_specified_rows": 181,
+  "original_source_gaps_deferred": 45,
+  "full_extraction_complete": false,
+  "independent_reviews_completed": 0
+}
