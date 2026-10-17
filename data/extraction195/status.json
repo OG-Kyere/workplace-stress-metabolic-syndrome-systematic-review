@@ -1,0 +1,19 @@
+{
+  "new_specified_clinical_rows": 125,
+  "new_reports_with_specified_rows": 9,
+  "original_source_hashes_verified": 9,
+  "new_rows_by_report": {
+    "PM00713": 9,
+    "PM00760": 10,
+    "PM00774": 3,
+    "PM00787": 40,
+    "PM00936": 36,
+    "PM01003": 8,
+    "PM01018": 2,
+    "PM02717": 3,
+    "PM04516": 14
+  },
+  "explicit_quantitative_hold_rows": 5,
+  "full_extraction_certified": false,
+  "independent_reviews_completed": 0
+}
