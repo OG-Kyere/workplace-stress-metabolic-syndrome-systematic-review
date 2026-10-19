@@ -1,0 +1,22 @@
+{
+  "batch": "source-read clinical extraction 200",
+  "date": "2026-10-19",
+  "reports_source_checked": 3,
+  "new_structured_rows": 5,
+  "reports_with_specified_rows_in_expanded_ledgers": 165,
+  "available_originals_without_specified_rows": 178,
+  "original_source_gaps_deferred": 45,
+  "independent_reviews_completed": 0,
+  "full_extraction_complete": false,
+  "eligibility_flags": [
+    {
+      "record_id": "FC143-00982",
+      "issue": "Mental stress is general BSRS-5 distress rather than explicitly occupational/job stress; exposure-scope adjudication required."
+    }
+  ],
+  "notes": [
+    "Saffari 2025 contributes HDL and triglyceride component outcomes; accessible table reports ANCOVA p-values but no adjusted treatment-effect CI.",
+    "Clemes 2022 SHIFT reports no between-group differences in cardiometabolic markers at 6 months; exact Table 4 scalar estimates remain to be captured.",
+    "No row in this batch is approved for quantitative synthesis until independent review and endpoint/model verification are complete."
+  ]
+}
