@@ -1,0 +1,33 @@
+{
+  "PM00787": {
+    "source_locator": "Original Methods Statistical Analysis; Table2",
+    "fields": {
+      "effect_estimate_or_note": "Table2 emotional-exhaustion T2 vsT1 central-obesity aOR14.95(1.50–148.71); night vsday waist aOR12.39(1.02–150.5). Component-specific,not full-syndrome effects.",
+      "appraisal_caution": "168female nurses;cross-sectional convenience sample,wide intervals,multiple comparisons. Original Methods andTable2 both use personal-accomplishment T3 asreference;previous claim of a reference conflict withdrawn. Adjusted age,servicearea,BMI pertablefootnote. Printed personal-accomplishment T1 high-BP OR0/CI0–0 retained as numerical hold,not valid precision. Full extraction andindependent appraisal outstanding."
+    },
+    "source_file": "data\\source_recovery187\\PM00787_0.source",
+    "source_sha256": "c05feedaf9d53b1332ba0a6260853eaf13e95c777247a9300b0b556c169bc6a0",
+    "reason": "Primary-source reinspection supersedes indicated historical note; does not establish independent review"
+  },
+  "PM00936": {
+    "source_locator": "Original Table2; Methods Cox modelling; tablefootnote",
+    "fields": {
+      "effect_estimate_or_note": "Model3 prolonged sedentary>=30min-bout Q2/Q3/Q4 MetS HR2.72(1.30–5.73),2.42(1.11–5.25),2.85(1.31–6.18). Q3upper bound5.25 corrected from priornote5.50. Total/nonprolonged domains andall4models retained separately.",
+      "appraisal_caution": "430baseline-freeworkers,83events;objective accelerometry;Cox model. Model2tablefootnote includesfamilyincome whileMethods listomitsit;do not assume harmonized covariates. Wear-time adjustment,MVPA,waist-conditioning,attrition,eventintervals andcompanion independence requirefinal verification. Allmodels/domains sharesample;full extraction/independent review outstanding."
+    },
+    "source_file": "data\\source_recovery187\\PM00936_0.source",
+    "source_sha256": "4dcb42aefe58a55306c35a1035fba4ad8e5406eacff8f86d72424ccbee4cdfe2",
+    "reason": "Primary-source reinspection supersedes indicated historical note; does not establish independent review"
+  },
+  "PM02717": {
+    "source_locator": "Original Methods Study Population and Analysis Populations; Tables2–3",
+    "fields": {
+      "eligibility_evidence": "Vitamin-D trial in rotating male mineworkers;198 is the per-protocol complete-analysis population after post-randomization exclusions,not totalrandomizedN. Originalreports WC betweenarm comparisons at4months.",
+      "effect_estimate_or_note": "Table3 waist-change medians(IQR): placebo-0.1(-1.8,1.4),14000IU/week0.37(-1.25,1.6),28000IU/week0.8(-1,1.83)cm;allshare posthoclettera,nosignificantdifferences reported. Rangesare IQRs,notCIs.",
+      "appraisal_caution": "362initially recruited;44didnotreceiveintervention;120postrandomization exclusions included baselinevitD>=30ng/mL or incomplete data;198PP retained(63/66/69). Do not label198asrandomizedN. Selectionafterallocation andcompleteoutcomes limitsinference;noITT effectcertified. No derivedpairwiseCI orpairedSE. Full extraction andindependent appraisal outstanding."
+    },
+    "source_file": "data\\source_recovery187\\PM02717_0.source",
+    "source_sha256": "c37a326cbc8651960e41f9037c9a7868c6c9b3a1abbc751c25ac5e54752305dc",
+    "reason": "Primary-source reinspection supersedes indicated historical note; does not establish independent review"
+  }
+}

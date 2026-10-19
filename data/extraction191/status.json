@@ -1,0 +1,17 @@
+{
+  "new_specified_clinical_rows": 43,
+  "new_reports_with_specified_rows": 6,
+  "new_rows_by_report": {
+    "PM00201": 6,
+    "PM00823": 6,
+    "PM00934": 21,
+    "PM01015": 4,
+    "PM02520": 5,
+    "PM02602": 1
+  },
+  "reports_with_rows_across_audit188_and191": 122,
+  "reports_without_rows_in_these_sources": 266,
+  "original_source_hashes_verified": 6,
+  "full_extraction_certified": false,
+  "independent_reviews_completed": 0
+}

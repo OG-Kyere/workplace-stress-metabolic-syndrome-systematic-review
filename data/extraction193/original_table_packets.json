@@ -1,0 +1,1915 @@
+[
+  {
+    "record_id": "FC143-00017",
+    "table_id": "jcm-15-04028-t005",
+    "rows": [
+      [
+        "Years of Shiftwork",
+        "Arterial Hypertension (%)",
+        "Hypercholesterolemia (%)",
+        "Diabetes (%)",
+        "Overweight (%)",
+        "Obesity (%)"
+      ],
+      [
+        "M",
+        "F",
+        "M",
+        "F",
+        "M",
+        "F",
+        "M",
+        "F",
+        "M",
+        "F"
+      ],
+      [
+        "<10",
+        "6.7 *",
+        "5.5",
+        "19.2",
+        "20.6",
+        "2.5",
+        "(4) 2.7",
+        "36.7 *",
+        "26.1",
+        "6.7 *",
+        "3.4"
+      ],
+      [
+        "10–20",
+        "12.1 *",
+        "8.1",
+        "21.6",
+        "23.6",
+        "2.6",
+        "(5) 2.9",
+        "43.1 *",
+        "29.9",
+        "8.6 *",
+        "5.2"
+      ],
+      [
+        "21–30",
+        "29.4 *",
+        "19.8",
+        "33.8",
+        "36.6",
+        "5.9",
+        "(7) 6.9",
+        "57.4 *",
+        "36.6",
+        "16.2 *",
+        "10.0"
+      ],
+      [
+        "31–40",
+        "56.2 *",
+        "25.1",
+        "37.5",
+        "37.5",
+        "6.2",
+        "(2) 8.3 *",
+        "56.2",
+        "37.5",
+        "18.7 *",
+        "8.4"
+      ]
+    ],
+    "caption": "Distribution of modifiable cardiovascular risk factors in shift-working HCWs, stratified by duration of shift work exposure (years). * p < 0.05 compared to female shift-working HCWs. Values expressed as mean (SD) for continuous variables and % (n) for categorical variables.",
+    "footnotes": "No consistent gender differences were observed for hypercholesterolemia or diabetes.",
+    "original_file": "data\\screened_candidates_154\\FC143-00017.xml",
+    "original_sha256": "b2392fbab7c60c19a13c8b8a9e29e86a0f34b5bc70c2737b8533129910ed977a"
+  },
+  {
+    "record_id": "FC143-00020",
+    "table_id": "ijerph-22-01221-t002",
+    "rows": [
+      [
+        "Disorder",
+        "Workers with EDs N (%) (CI95%)",
+        "Other Workers N (%) (CI95%)"
+      ],
+      [
+        "1. Hypertension",
+        "27 (42.9%) (30.5; 56.0) **",
+        "317 (27.5%) (25.0; 30.2) **"
+      ],
+      [
+        "2. Reduced HDL cholesterol",
+        "29 (46.0%) (33.4; 59.1) *",
+        "395 (34.5%) (31.5; 37.2) *"
+      ],
+      [
+        "3. Hypertriglyceridemia",
+        "12 (19.0%) (10.2; 30.9) **",
+        "105 (9.1%) (7.5; 10.9) **"
+      ],
+      [
+        "4. Hyperglycemia",
+        "22 (34.9%) (23.3; 48.0) **",
+        "194 (16.8%) (14.7; 19.1) **"
+      ],
+      [
+        "5. Abdominal obesity",
+        "13 (20.6%) (11.5; 32.7)",
+        "254 (22%) (19.7; 24.6)"
+      ],
+      [
+        "Metabolic syndrome",
+        "17 (27%) (16.6; 39.7) *",
+        "172 (14.9%) (12.9; 17.1) *"
+      ]
+    ],
+    "caption": "Metabolic effects of EDs. Comparison between cases with EDs and other workers (Pearson’s chi square test).",
+    "footnotes": "Note: N = number of cases. CI 95% = confidence interval 95% of the prevalence, Clopper Pearson Test. * Correlation is significant at the 0.05 level (two-tailed). ** Correlation is significant at the 0.01 level (two-tailed).",
+    "original_file": "data\\screened_candidates_154\\FC143-00020.xml",
+    "original_sha256": "6d1b9da114f3b1dae3f4f107761152d3c3299c2c2ba8fb9fdd15eada4af41713"
+  },
+  {
+    "record_id": "FC143-00087",
+    "table_id": "T2",
+    "rows": [
+      [
+        "Characteristics",
+        "Hypertension (N=90)",
+        "Diabetes mellitus (N=78)",
+        "Obesity (N=132)"
+      ],
+      [
+        "Intervention (n=30)",
+        "Control (n=60)",
+        "P value",
+        "Intervention (n=26)",
+        "Control (n=52)",
+        "P value",
+        "Intervention (n=44)",
+        "Control (n=88)",
+        "P value"
+      ],
+      [
+        "SBP b (mm Hg), EMM (SE)"
+      ],
+      [
+        "2019",
+        "119.50 (1.67)",
+        "119.59 (1.17)",
+        ".97",
+        "115.30 (1.53)",
+        "115.37 (1.06)",
+        ".97",
+        "111.81 (1.10)",
+        "112.15 (0.77)",
+        ".80"
+      ],
+      [
+        "2023",
+        "119.60 (1.67)",
+        "122.04 (1.17)",
+        ".24",
+        "113.42 (1.53)",
+        "117.68 (1.06)",
+        ".03 c",
+        "111.97 (1.10)",
+        "113.98 (0.77)",
+        ".14"
+      ],
+      [
+        "P for interaction",
+        "",
+        "",
+        ".41",
+        "",
+        "",
+        ".10",
+        "",
+        "",
+        ".38"
+      ],
+      [
+        "DBP d (mm Hg), EMM (SE)"
+      ],
+      [
+        "2019",
+        "81.75 (1.09)",
+        "81.64 (0.76)",
+        ".93",
+        "76.25 (1.10)",
+        "76.49 (0.77)",
+        ".86",
+        "74.58 (0.80)",
+        "74.62 (0.56)",
+        ".97"
+      ],
+      [
+        "2023",
+        "76.61 (1.09)",
+        "79.31 (0.76)",
+        ".045 c",
+        "71.71 (1.10)",
+        "76.38 (0.77)",
+        "<.001 c",
+        "71.99 (0.80)",
+        "73.69 (0.56)",
+        ".09"
+      ],
+      [
+        "P for interaction",
+        "",
+        "",
+        ".13",
+        "",
+        "",
+        ".02 c",
+        "",
+        "",
+        ".23"
+      ],
+      [
+        "FBG e (mg/dL), EMM (SE)"
+      ],
+      [
+        "2019",
+        "100.86 (1.01)",
+        "100.78 (0.71)",
+        ".95",
+        "109.95 (2.45)",
+        "111.20 (1.70)",
+        ".68",
+        "100.98 (1.79)",
+        "101.67 (1.26)",
+        ".76"
+      ],
+      [
+        "2023",
+        "97.93 (1.01)",
+        "97.35 (0.71)",
+        ".74",
+        "110.99 (2.45)",
+        "111.52 (1.70)",
+        ".86",
+        "98.14 (1.79)",
+        "99.57 (1.26)",
+        ".52"
+      ],
+      [
+        "P for interaction",
+        "",
+        "",
+        ".77",
+        "",
+        "",
+        ".86",
+        "",
+        "",
+        ".81"
+      ],
+      [
+        "HbA 1c f (%), EMM (SE)"
+      ],
+      [
+        "2019",
+        "5.53 (0.03)",
+        "5.52 (0.02)",
+        ".73",
+        "5.97 (0.08)",
+        "5.99 (0.06)",
+        ".82",
+        "5.57 (0.04)",
+        "5.58 (0.03)",
+        ".83"
+      ],
+      [
+        "2023",
+        "5.59 (0.03)",
+        "5.64 (0.02)",
+        ".18",
+        "6.13 (0.08)",
+        "6.18 (0.06)",
+        ".72",
+        "5.66 (0.04)",
+        "5.70 (0.03)",
+        ".44"
+      ],
+      [
+        "P for interaction",
+        "",
+        "",
+        ".22",
+        "",
+        "",
+        ".92",
+        "",
+        "",
+        ".70"
+      ],
+      [
+        "BMI (kg/m 2 ), EMM (SE)"
+      ],
+      [
+        "2019",
+        "25.42 (0.18)",
+        "25.35 (0.12)",
+        ".75",
+        "25.88 (0.20)",
+        "25.72 (0.14)",
+        ".52",
+        "25.17 (0.13)",
+        "25.17 (0.09)",
+        ".97"
+      ],
+      [
+        "2023",
+        "25.17 (0.18)",
+        "25.21 (0.12)",
+        ".85",
+        "25.84 (0.20)",
+        "25.37 (0.14)",
+        ".06",
+        "25.34 (0.13)",
+        "25.36 (0.09)",
+        ".90"
+      ],
+      [
+        "P for interaction",
+        "",
+        "",
+        ".71",
+        "",
+        "",
+        ".36",
+        "",
+        "",
+        ".91"
+      ],
+      [
+        "Triglycerides (mg/dL), EMM (SE)"
+      ],
+      [
+        "2019",
+        "154.47 (10.69)",
+        "155.01 (7.52)",
+        ".97",
+        "166.82 (10.08)",
+        "175.88 (7.01)",
+        ".47",
+        "158.02 (8.15)",
+        "149.78 (5.73)",
+        ".41"
+      ],
+      [
+        "2023",
+        "156.37 (10.69)",
+        "151.83 (7.52)",
+        ".73",
+        "140.12 (10.08)",
+        "141.48 (7.01)",
+        ".91",
+        "117.81 (8.15)",
+        "157.74 (5.73)",
+        "<.001 c"
+      ],
+      [
+        "P for interaction",
+        "",
+        "",
+        ".78",
+        "",
+        "",
+        ".65",
+        "",
+        "",
+        "<.001 c"
+      ],
+      [
+        "Total cholesterol (mg/dL), EMM (SE)"
+      ],
+      [
+        "2019",
+        "191.53 (5.09)",
+        "193.08 (3.58)",
+        ".80",
+        "197.16 (5.97)",
+        "199.96 (4.15)",
+        ".71",
+        "199.93 (4.09)",
+        "194.85 (2.88)",
+        ".32"
+      ],
+      [
+        "2023",
+        "182.86 (5.09)",
+        "196.80 (3.58)",
+        ".03 c",
+        "180.66 (5.97)",
+        "193.36 (4.15)",
+        ".09",
+        "195.81 (4.09)",
+        "195.42 (2.88)",
+        ".94"
+      ],
+      [
+        "P for interaction",
+        "",
+        "",
+        ".16",
+        "",
+        "",
+        ".33",
+        "",
+        "",
+        ".51"
+      ],
+      [
+        "HDL g cholesterol (mg/dL), EMM (SE)"
+      ],
+      [
+        "2019",
+        "53.78 (1.15)",
+        "53.81 (0.81)",
+        ".99",
+        "49.71 (1.29)",
+        "50.24 (0.89)",
+        ".74",
+        "54.15 (0.85)",
+        "54.20 (0.60)",
+        ".96"
+      ],
+      [
+        "2023",
+        "56.15 (1.15)",
+        "57.26 (0.81)",
+        ".44",
+        "54.59 (1.29)",
+        "54.61 (0.89)",
+        ".99",
+        "59.96 (0.85)",
+        "54.88 (0.60)",
+        "<.001 c"
+      ],
+      [
+        "P for interaction",
+        "",
+        "",
+        ".59",
+        "",
+        "",
+        ".81",
+        "",
+        "",
+        "<.001 c"
+      ],
+      [
+        "LDL h cholesterol (mg/dL), EMM (SE)"
+      ],
+      [
+        "2019",
+        "129.46 (4.68)",
+        "131.17 (3.29)",
+        ".77",
+        "138.55 (5.81)",
+        "139.15 (4.03)",
+        ".93",
+        "136.44 (3.77)",
+        "132.95 (2.65)",
+        ".45"
+      ],
+      [
+        "2023",
+        "114.33 (4.68)",
+        "126.18 (3.29)",
+        ".04 c",
+        "117.13 (5.81)",
+        "126.59 (4.03)",
+        ".19",
+        "127.30 (3.77)",
+        "125.26 (2.65)",
+        ".66"
+      ],
+      [
+        "P for interaction",
+        "",
+        "",
+        ".21",
+        "",
+        "",
+        ".36",
+        "",
+        "",
+        ".82"
+      ]
+    ],
+    "caption": "Estimated marginal means (EMMs) and longitudinal changes in primary outcomes in intervention and control groups across cohorts a .",
+    "footnotes": "a EMMs were calculated from linear mixed effects models adjusted for covariates with residual imbalance (absolute standardized mean difference ≥0.1) after propensity score matching. b SBP: systolic blood pressure. c Statistically significant results ( P <.05). d DBP: diastolic blood pressure. e FBG: fasting blood glucose. f HbA 1c : glycated hemoglobin. g HDL: high-density lipoprotein. h LDL: low-density lipoprotein.",
+    "original_file": "data\\screened_candidates_154\\FC143-00087.xml",
+    "original_sha256": "f3e441a74361096ccb2b9491d03431ca1509465001eb9eddf1414b4ddcd21f03"
+  },
+  {
+    "record_id": "FC143-00167",
+    "table_id": "nutrients-16-01082-t002",
+    "rows": [
+      [
+        "",
+        "Men Pre ( n = 4038)",
+        "Men Post ( n = 4038)",
+        "",
+        "Women Pre ( n = 2996)",
+        "Women Post ( n = 2996)",
+        ""
+      ],
+      [
+        "",
+        "Mean (SD)",
+        "Mean (SD)",
+        "p -Value",
+        "Mean (SD)",
+        "Mean (SD)",
+        "p -Value"
+      ],
+      [
+        "Age",
+        "47.1 (8.0)",
+        "47.6 (8.1)",
+        "<0.001",
+        "45.4 (8.3)",
+        "46.0 (8.3)",
+        "<0.001"
+      ],
+      [
+        "Weight",
+        "87.1 (13.1)",
+        "84.4 (13.0)",
+        "<0.001",
+        "78.2 (14.1)",
+        "72.2 (12.2)",
+        "<0.001"
+      ],
+      [
+        "Waist",
+        "100.8 (9.1)",
+        "98.3 (9.6)",
+        "<0.001",
+        "104.3 (9.8)",
+        "98.7 (11.1)",
+        "<0.001"
+      ],
+      [
+        "Hip",
+        "109.6 (9.4)",
+        "107.2 (9.7)",
+        "<0.001",
+        "114.8 (9.6)",
+        "110.8 (10.3)",
+        "<0.001"
+      ],
+      [
+        "SBP",
+        "138.2 (19.0)",
+        "136.5 (18.8)",
+        "<0.001",
+        "130.2 (18.3)",
+        "127.3 (18.0)",
+        "<0.001"
+      ],
+      [
+        "DBP",
+        "83.5 (11.7)",
+        "82.5 (11.8)",
+        "<0.001",
+        "80.1 (11.4)",
+        "78.1 (11.1)",
+        "<0.001"
+      ],
+      [
+        "Total cholesterol",
+        "206.4 (38.9)",
+        "205.0 (39.4)",
+        "<0.001",
+        "204.8 (36.5)",
+        "200.7 (35.6)",
+        "<0.001"
+      ],
+      [
+        "HDL-c",
+        "49.3 (10.9)",
+        "50.2 (10.8)",
+        "<0.001",
+        "57.5 (12.1)",
+        "58.6 (12.3)",
+        "<0.001"
+      ],
+      [
+        "LDL-c",
+        "128.4 (33.6)",
+        "126.7 (34.1)",
+        "<0.001",
+        "126.1 (32.4)",
+        "122.3 (31.4)",
+        "<0.001"
+      ],
+      [
+        "Triglycerides",
+        "144.0 (95.7)",
+        "138.6 (90.9)",
+        "<0.001",
+        "105.7 (57.7)",
+        "99.3 (57.9)",
+        "<0.001"
+      ],
+      [
+        "Glycaemia",
+        "97.1 (24.3)",
+        "95.7 (23.4)",
+        "<0.001",
+        "93.2 (22.6)",
+        "91.6 (19.5)",
+        "<0.001"
+      ]
+    ],
+    "caption": "Characteristics of the population.",
+    "footnotes": "SBP: Systolic blood pressure. DBP: Diastolic blood pressure. HDL-c: High-density lipoprotein cholesterol. LDL-c: Low-density lipoprotein cholesterol. SD: Standard deviation.",
+    "original_file": "data\\screened_candidates_154\\FC143-00167.xml",
+    "original_sha256": "458506092b8fc71b12e4ba3ab49548a350246b3f3f9110228b4c85f62cf9c119"
+  },
+  {
+    "record_id": "FC143-00167",
+    "table_id": "nutrients-16-01082-t003",
+    "rows": [
+      [
+        "",
+        "Men Pre ( n = 4038)",
+        "Men Post ( n = 4038)",
+        "",
+        "",
+        "Women Pre ( n = 2996)",
+        "Women Post ( n = 2996)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Mean (SD)",
+        "Mean (SD)",
+        "Difference",
+        "p -Value",
+        "Mean (SD)",
+        "Mean (SD)",
+        "Difference",
+        "p -Value"
+      ],
+      [
+        "Metabolic age",
+        "14.4 (1.1)",
+        "13.9 (1.7)",
+        "−3.9",
+        "<0.001",
+        "12.9 (1.6)",
+        "11.7 (2.1)",
+        "−9.0",
+        "<0.001"
+      ],
+      [
+        "BMI",
+        "28.9 (3.8)",
+        "28.1 (3.8)",
+        "−2.8",
+        "<0.001",
+        "29.8 (4.9)",
+        "27.7 (4.4)",
+        "−7.0",
+        "<0.001"
+      ],
+      [
+        "WtHR",
+        "0.58 (0.05)",
+        "0.57 (0.06)",
+        "−1.7",
+        "<0.001",
+        "0.64 (0.07)",
+        "0.61 (0.07)",
+        "−4.7",
+        "<0.001"
+      ],
+      [
+        "WtHipR",
+        "0.92 (0.06)",
+        "0.91 (0.06)",
+        "−1.1",
+        "0.017",
+        "0.91 (0.07)",
+        "0.89 (0.07)",
+        "−2.2",
+        "<0.001"
+      ],
+      [
+        "% body fat",
+        "34.6 (5.7)",
+        "32.5 (6.5)",
+        "−6.1",
+        "<0.001",
+        "44.6 (4.2)",
+        "41.3 (5.1)",
+        "−7.4",
+        "<0.001"
+      ],
+      [
+        "% visceral fat",
+        "16.6 (5.4)",
+        "15.0 (5.7)",
+        "−9.6",
+        "<0.001",
+        "11.1 (4.0)",
+        "9.6 (3.7)",
+        "−13.5",
+        "<0.001"
+      ],
+      [
+        "ALLY heart age",
+        "9.0 (8.6)",
+        "8.5 (8.7)",
+        "−5.6",
+        "<0.001",
+        "6.5 (10.1)",
+        "4.9 (10.5)",
+        "−24.6",
+        "<0.001"
+      ],
+      [
+        "Framingham relative risk",
+        "1.7 (0.9)",
+        "1.6 (0.9)",
+        "−5.9",
+        "0.028",
+        "1.4 (0.8)",
+        "1.3 (0.8)",
+        "−7.1",
+        "<0.001"
+      ],
+      [
+        "TyG index",
+        "8.7 (0.6)",
+        "8.6 (0.6)",
+        "−1.1",
+        "<0.001",
+        "8.4 (0.5)",
+        "8.3 (0.5)",
+        "−1.2",
+        "<0.001"
+      ],
+      [
+        "METS-IR",
+        "45.9 (8.2)",
+        "44.2 (8.2)",
+        "−3.7",
+        "<0.001",
+        "44.3 (9.2)",
+        "40.6 (8.2)",
+        "−8.4",
+        "<0.001"
+      ],
+      [
+        "SPISE",
+        "5.4 (1.2)",
+        "5.7 (1.3)",
+        "5.6",
+        "<0.001",
+        "5.7 (1.4)",
+        "6.4 (1.5)",
+        "12.3",
+        "<0.001"
+      ],
+      [
+        "LAP",
+        "58.9 (45.0)",
+        "53.4 (42.3)",
+        "−9.3",
+        "<0.001",
+        "49.3 (39.0)",
+        "46.1 (38.0)",
+        "−6.5",
+        "<0.001"
+      ],
+      [
+        "AI total cholesterol/HDL-c",
+        "4.3 (1.1)",
+        "4.2 (1.0)",
+        "−2.3",
+        "0.031",
+        "3.7 (0.9)",
+        "3.5 (0.9)",
+        "−5.4",
+        "<0.001"
+      ],
+      [
+        "AI LDL-c/HDL-c",
+        "2.7 (0.8)",
+        "2.6 (0.8)",
+        "−3.7",
+        "0.027",
+        "2.3 (0.7)",
+        "2.2 (0.7)",
+        "−4.3",
+        "<0.001"
+      ],
+      [
+        "AI triglycerides/HDL-c",
+        "3.2 (2.5)",
+        "3.0 (2.4)",
+        "−6.3",
+        "<0.001",
+        "2.0 (1.5)",
+        "1.8 (1.5)",
+        "−10.0",
+        "<0.001"
+      ],
+      [
+        "Metabolic syndrome nº factors",
+        "1.9 (1.2)",
+        "1.7 (1.2)",
+        "−10.5",
+        "<0.001",
+        "2.8 (1.0)",
+        "2.5 (1.1)",
+        "−10.7",
+        "<0.001"
+      ]
+    ],
+    "caption": "Mean values of different cardiometabolic risk scales according to sex and group.",
+    "footnotes": "BMI: Body mass index. WtHR: Waist-to-height ratio. WtHipR: Waist-to-hip ratio. ALLY: Avoidable lost life years. TyG: Triglyceride glucose. METS-IR: Metabolic score for insulin resistance. SPISE: Single-point insulin sensitivity estimator. LAP: Lipid accumulation product. AI: Atherogenic index. HDL-c: High-density lipoprotein cholesterol. LDL-c: Low-density lipoprotein cholesterol.",
+    "original_file": "data\\screened_candidates_154\\FC143-00167.xml",
+    "original_sha256": "458506092b8fc71b12e4ba3ab49548a350246b3f3f9110228b4c85f62cf9c119"
+  },
+  {
+    "record_id": "FC143-00167",
+    "table_id": "nutrients-16-01082-t004",
+    "rows": [
+      [
+        "",
+        "Men Pre ( n = 4038)",
+        "Men Post ( n = 4038)",
+        "",
+        "",
+        "Women Pre ( n = 2996)",
+        "Women Post ( n = 2996)",
+        "",
+        ""
+      ],
+      [
+        "",
+        "%",
+        "%",
+        "Difference",
+        "p -Value",
+        "%",
+        "%",
+        "Difference",
+        "p -Value"
+      ],
+      [
+        "Metabolic age ≥ 12 years",
+        "68.2",
+        "53.3",
+        "−21.8",
+        "<0.001",
+        "16.02",
+        "9.8",
+        "−38.5",
+        "<0.001"
+      ],
+      [
+        "Hypertension",
+        "47.9",
+        "43.5",
+        "−9.2",
+        "<0.001",
+        "30.7",
+        "24.6",
+        "−19.9",
+        "<0.001"
+      ],
+      [
+        "High Total cholesterol",
+        "53.3",
+        "51.5",
+        "−3.4",
+        "<0.001",
+        "52.6",
+        "48.1",
+        "−8.6",
+        "<0.001"
+      ],
+      [
+        "High LDL-c",
+        "46.5",
+        "44.5",
+        "−4.3",
+        "<0.001",
+        "42.7",
+        "37.6",
+        "−11.9",
+        "<0.001"
+      ],
+      [
+        "High Triglycerides",
+        "34.3",
+        "31.5",
+        "−8.2",
+        "<0.001",
+        "16.2",
+        "13.2",
+        "−18.5",
+        "<0.001"
+      ],
+      [
+        "Glycaemia > 125 mg/dL",
+        "7.8",
+        "7.3",
+        "−6.4",
+        "<0.001",
+        "5.0",
+        "3.6",
+        "−28.0",
+        "<0.001"
+      ],
+      [
+        "BMI obesity",
+        "31.7",
+        "24.5",
+        "−22.7",
+        "<0.001",
+        "39.4",
+        "21.5",
+        "−45.4",
+        "<0.001"
+      ],
+      [
+        "High WtHR",
+        "96.8",
+        "91.0",
+        "−6.0",
+        "<0.001",
+        "99.2",
+        "95.2",
+        "−4.0",
+        "<0.001"
+      ],
+      [
+        "High WtHipR",
+        "96.8",
+        "92.3",
+        "−4.6",
+        "<0.001",
+        "95.9",
+        "91.7",
+        "−4.4",
+        "<0.001"
+      ],
+      [
+        "Very high % body fat",
+        "100.0",
+        "87.3",
+        "−12.7",
+        "<0.001",
+        "100.0",
+        "82.9",
+        "−17.1",
+        "<0.001"
+      ],
+      [
+        "High ALLY heart age",
+        "18.2",
+        "15.7",
+        "−13.7",
+        "<0.001",
+        "7.4",
+        "6.1",
+        "−17.6",
+        "<0.001"
+      ],
+      [
+        "Framingham relative risk",
+        "30.9",
+        "28.7",
+        "−7.1",
+        "<0.001",
+        "9.6",
+        "8.9",
+        "−7.3",
+        "<0.001"
+      ],
+      [
+        "High TyG index",
+        "39.1",
+        "35.7",
+        "−8.7",
+        "<0.001",
+        "24.2",
+        "19.6",
+        "−19.0",
+        "<0.001"
+      ],
+      [
+        "High METS-IR",
+        "26.8",
+        "21.1",
+        "−21.3",
+        "<0.001",
+        "21.6",
+        "11.9",
+        "−44.9",
+        "<0.001"
+      ],
+      [
+        "High SPISE",
+        "83.7",
+        "75.7",
+        "−9.6",
+        "<0.001",
+        "76.1",
+        "56.0",
+        "−26.4",
+        "<0.001"
+      ],
+      [
+        "High AI total cholesterol/HDL-c",
+        "23.3",
+        "21.7",
+        "−6.9",
+        "<0.001",
+        "15.2",
+        "12.4",
+        "−18.4",
+        "<0.001"
+      ],
+      [
+        "High AI LDL-c/HDL-c",
+        "32.7",
+        "31.6",
+        "−3.4",
+        "<0.001",
+        "16.3",
+        "12.7",
+        "−22.1",
+        "<0.001"
+      ],
+      [
+        "High AI triglycerides/HDL-c",
+        "39.5",
+        "35.8",
+        "−9.4",
+        "<0.001",
+        "14.7",
+        "11.7",
+        "−20.4",
+        "<0.001"
+      ],
+      [
+        "Atherogenic dyslipidaemia",
+        "10.1",
+        "8.3",
+        "−17.8",
+        "<0.001",
+        "12.7",
+        "9.7",
+        "−23.6",
+        "<0.001"
+      ],
+      [
+        "Lipid triad",
+        "7.5",
+        "6.3",
+        "−16.0",
+        "<0.001",
+        "8.1",
+        "6.3",
+        "−22.2",
+        "<0.001"
+      ],
+      [
+        "Metabolic syndrome NCEP ATPIII",
+        "27.5",
+        "22.5",
+        "−18.2",
+        "<0.001",
+        "23.7",
+        "20.5",
+        "−13.5",
+        "<0.001"
+      ],
+      [
+        "Metabolic syndrome IDF",
+        "38.9",
+        "32.0",
+        "−17.7",
+        "<0.001",
+        "27.7",
+        "23.3",
+        "−15.9",
+        "<0.001"
+      ]
+    ],
+    "caption": "Prevalence of high values of different cardiometabolic risk scales according to sex and group.",
+    "footnotes": "BMI: Body mass index. WtHR: Waist-to-height ratio. WtHipR: Waist-to-hip ratio. HDL-c: High-density lipoprotein cholesterol. LDL-c: Low-density lipoprotein cholesterol. ALLY: Avoidable lost life years. TyG: Triglyceride glucose. METS-IR: Metabolic score for insulin resistance. SPISE: Single-point insulin sensitivity estimator. LAP: Lipid accumulation product. AI: Atherogenic index. NCEP ATPII: National Cholesterol Education Program Adult Treatment Panel. IDF: International Diabetes Federation.",
+    "original_file": "data\\screened_candidates_154\\FC143-00167.xml",
+    "original_sha256": "458506092b8fc71b12e4ba3ab49548a350246b3f3f9110228b4c85f62cf9c119"
+  },
+  {
+    "record_id": "FC143-00186",
+    "table_id": "table4-22799036251388562",
+    "rows": [
+      [
+        "Variables",
+        "Central obesity",
+        "COR (95% CI)",
+        "AOR (95% CI)",
+        "p -Value"
+      ],
+      [
+        "Yes (%)",
+        "No (%)"
+      ],
+      [
+        "Sex"
+      ],
+      [
+        "Female",
+        "94 (51.4)",
+        "89 (48.6)",
+        "1.65 (1.16, 2.33)",
+        "1.78 (1.22, 2.59)",
+        "0.003 *"
+      ],
+      [
+        "Male",
+        "172 (39.1)",
+        "268 (60.9)",
+        "1",
+        "1",
+        ""
+      ],
+      [
+        "Age categories by years"
+      ],
+      [
+        "20–29",
+        "61 (41.2)",
+        "87 (58.8)",
+        "1",
+        "1",
+        ""
+      ],
+      [
+        "30–39",
+        "128 (41.9)",
+        "177 (58.1)",
+        "1.03 (0.69, 1.54)",
+        "0.98 (0.56, 1.72)",
+        "0.935"
+      ],
+      [
+        "40–49",
+        "66 (43.4)",
+        "86 (56.6)",
+        "1.09 (0.69, 1.73)",
+        "0.97 (0.48, 1.96)",
+        "0.940"
+      ],
+      [
+        "≥50",
+        "11 (61.1)",
+        "7 (38.9)",
+        "2.24 (0.82, 6.11)",
+        "1.94 (0.61, 6.13)",
+        "0.259"
+      ],
+      [
+        "Marital status"
+      ],
+      [
+        "Married",
+        "110 (40.7)",
+        "160 (59.3)",
+        "1",
+        "1",
+        ""
+      ],
+      [
+        "Single",
+        "108 (48.6)",
+        "149 (51.4)",
+        "1.05 (0.74, 1.49)",
+        "1.09 (0.69, 1.74)",
+        "0.698"
+      ],
+      [
+        "Divorced",
+        "33 (52.3)",
+        "32 (47.7)",
+        "1.50 (0.87, 2.58)",
+        "1.36 (0.76, 2.44)",
+        "0.300"
+      ],
+      [
+        "Widowed",
+        "15 (48.4)",
+        "16 (51.6)",
+        "1.36 (0.65, 2.87)",
+        "1.23 (0.56, 2.71)",
+        "0.613"
+      ],
+      [
+        "Chat chewing"
+      ],
+      [
+        "Yes",
+        "111 (46.4)",
+        "128 (53.6)",
+        "1",
+        "1",
+        ""
+      ],
+      [
+        "No",
+        "155 (40.4)",
+        "229 (59.6)",
+        "0.78 (0.56, 1.08)",
+        "0.83 (0.58, 1.17)",
+        "0.276"
+      ],
+      [
+        "Do physical exercise"
+      ],
+      [
+        "Yes",
+        "22 (31.9)",
+        "47 (68.1)",
+        "1",
+        "1",
+        ""
+      ],
+      [
+        "No",
+        "244 (39.7)",
+        "370 (60.3)",
+        "1.68 (0.99, 2.87)",
+        "1.84 (1.03, 3.30)",
+        "0.040 *"
+      ],
+      [
+        "Mode of transportation"
+      ],
+      [
+        "Own car",
+        "15 (46.9)",
+        "17 (53.1)",
+        "1.76 (0.75, 4.13)",
+        "1.76 (0.54, 5.72)",
+        "0.350"
+      ],
+      [
+        "Public transport",
+        "177 (40.8)",
+        "257 (59.2)",
+        "1.38 (0.81, 2.33)",
+        "0.84 (0.44, 1.64)",
+        "0.627"
+      ],
+      [
+        "Motor bicycle",
+        "50 (58.8)",
+        "35 (41.2)",
+        "2.86 (1.49, 5.49)",
+        "2.07 (0.96, 4.45)",
+        "0.063"
+      ],
+      [
+        "On foot",
+        "24 (33.3)",
+        "48 (66.7)",
+        "1",
+        "1",
+        ""
+      ],
+      [
+        "Dietary frequency"
+      ],
+      [
+        "Two times",
+        "51 (36.7)",
+        "88 (63.3)",
+        "1",
+        "1",
+        ""
+      ],
+      [
+        "Three times",
+        "186 (44.6)",
+        "231 (55.4)",
+        "1.39 (0.94, 2.06)",
+        "1.28 (0.79, 2.09)",
+        "0.310"
+      ],
+      [
+        "Four & above times",
+        "29 (43.3)",
+        "38 (56.7)",
+        "1.32 (0.73, 2.34)",
+        "0.86 (0.37, 1.97)",
+        "0.720"
+      ],
+      [
+        "Frequency of drinking soda (soft drink) per week"
+      ],
+      [
+        "Never",
+        "38 (45.2)",
+        "46 (54.8)",
+        "1",
+        "1",
+        ""
+      ],
+      [
+        "Rarely",
+        "166 (49.2)",
+        "210 (50.8)",
+        "0.96 (0.59, 1.54)",
+        "0.96 (0.56, 1.65)",
+        "0.889"
+      ],
+      [
+        "Sometimes",
+        "46 (42.4)",
+        "79 (57.6)",
+        "0.70 (0.40, 1.24)",
+        "0.84 (0.42, 1.69)",
+        "0.635"
+      ],
+      [
+        "Always",
+        "16 (42.1)",
+        "22 (57.9)",
+        "0.88 (0.41, 1.91)",
+        "0.74 (0.29, 1.82)",
+        "0.514"
+      ],
+      [
+        "Frequency of eating red meat per week"
+      ],
+      [
+        "Never",
+        "109 (36.1)",
+        "193 (63.9)",
+        "1",
+        "1",
+        ""
+      ],
+      [
+        "1–2 times",
+        "157 (48.9)",
+        "164 (51.1)",
+        "1.69 (1.23, 2.34)",
+        "1.57 (1.03, 2.37)",
+        "0.035 *"
+      ],
+      [
+        "Fasting frequency per week"
+      ],
+      [
+        "0 time",
+        "190 (41.3)",
+        "270 (58.7)",
+        "1",
+        "1",
+        ""
+      ],
+      [
+        "One time",
+        "59 (44.7)",
+        "73 (55.3)",
+        "1.45 (0.78, 1.69)",
+        "1.03 (0.65, 1.62)",
+        "0.905"
+      ],
+      [
+        "Two times",
+        "12 (68.4)",
+        "7 (31.6)",
+        "2.44 (0.94, 6.30)",
+        "2.37 (0.84, 6.68)",
+        "0.104"
+      ],
+      [
+        "Four times",
+        "5 (41.7)",
+        "7 (58.3)",
+        "1.02 (0.32, 3.25)",
+        "1.29 (0.35, 4.70)",
+        "0.698"
+      ],
+      [
+        "Have diabetic mellitus"
+      ],
+      [
+        "Yes",
+        "15 (65.2)",
+        "8 (34.8)",
+        "1",
+        "1",
+        ""
+      ],
+      [
+        "No",
+        "251 (41.8)",
+        "349 (58.2)",
+        "0.38 (0.16, 0.92)",
+        "0.28 (0.10, 0.79)",
+        "0.016 *"
+      ],
+      [
+        "Work is stressful"
+      ],
+      [
+        "Yes",
+        "20 (57.1)",
+        "15 (42.9)",
+        "1",
+        "1",
+        ""
+      ],
+      [
+        "No",
+        "246 (41.8)",
+        "342 (58.2)",
+        "0.54 (0.27, 1.07)",
+        "0.44 (0.20, 0.96)",
+        "0.040 *"
+      ]
+    ],
+    "caption": "Bi-variable and multivariable logistic regression analysis of factors associated with Central Obesity among public sector workers in Jigjiga town, Somali region, Ethiopia 2024 ( n = 623).",
+    "footnotes": "* Significantly associated with outcome variable at the p-value of <0.05.",
+    "original_file": "data\\screened_candidates_154\\FC143-00186.xml",
+    "original_sha256": "6601c188a1a5413d2967a5d3af5b96629510b2e31183fc5bcc9b9dd3ce9ebf49"
+  },
+  {
+    "record_id": "FC143-00207",
+    "table_id": "Tab4",
+    "rows": [
+      [
+        "Parameter",
+        "Unit",
+        "Shift workers ( n = 204 )",
+        "Day workers ( n = 204 )",
+        "p -value"
+      ],
+      [
+        "2022",
+        "10-Years",
+        "2022",
+        "10-Years",
+        "2022",
+        "10-Years"
+      ],
+      [
+        "Mean ± SD",
+        "Mean ± SD",
+        "Mean ± SD",
+        "Mean ± SD"
+      ],
+      [
+        "Body mass index (BMI)",
+        "Kg m −2",
+        "25.94 ± 4.36",
+        "26.71 ± 5.14",
+        "23.91 ± 5.13",
+        "24.39 ± 3.54",
+        "0.089",
+        "0.036*"
+      ],
+      [
+        "White blood cells (WBC)",
+        "10 3 /µL",
+        "7.64 ± 3.24",
+        "7.13 ± 2.96",
+        "7.30 ± 3.11",
+        "7.16 ± 3.21",
+        "0.126",
+        "0.108"
+      ],
+      [
+        "Red blood cells (RBC)",
+        "10 6 /µL",
+        "5.50 ± 1.36",
+        "5.36 ± 1.21",
+        "5.12 ± 1.58",
+        "5.15 ± 1.73",
+        "0.446",
+        "0.513"
+      ],
+      [
+        "Platelets",
+        "10 3 /µL",
+        "204 ± 31",
+        "196 ± 29",
+        "182 ± 25",
+        "184 ± 23",
+        "0.047*",
+        "0.089"
+      ],
+      [
+        "Thyroid stimulating hormone (TSH)",
+        "micIU/ml",
+        "4.82 ± 2.11",
+        "4.36 ± 1.84",
+        "4.30 ± 1.59",
+        "3.18 ± 1.77",
+        "0.102",
+        "0.034*"
+      ],
+      [
+        "Fasting blood sugar",
+        "mg/dL",
+        "92.36 ± 16.54",
+        "94.56 ± 13.29",
+        "84.65 ± 10.98",
+        "85.13 ± 9.65",
+        "0.037*",
+        "0.041*"
+      ],
+      [
+        "Creatinine",
+        "mg/dL",
+        "1.13 ± 0.27",
+        "1.05 ± 0.16",
+        "0.82 ± 0.13",
+        "0.84 ± 0.11",
+        "0.029*",
+        "0.038*"
+      ],
+      [
+        "Cholesterol",
+        "mg/dL",
+        "177 ± 35",
+        "168 ± 28",
+        "175 ± 37",
+        "173 ± 29",
+        "0.285",
+        "0.129"
+      ],
+      [
+        "Triglyceride",
+        "mg/dL",
+        "189 ± 21",
+        "184 ± 19",
+        "179 ± 13",
+        "177 ± 11",
+        "0.031*",
+        "0.043*"
+      ],
+      [
+        "Serum glutamic–Oxaloacetic transaminase (SGOT)",
+        "U/L",
+        "24 ± 11",
+        "22 ± 9",
+        "21 ± 10",
+        "20 ± 8",
+        "0.024*",
+        "0.058"
+      ],
+      [
+        "Serum glutamic pyruvic transaminase (SGPT)",
+        "U/L",
+        "34 ± 11",
+        "31 ± 9",
+        "29 ± 8",
+        "27 ± 5",
+        "0.031*",
+        "0.039*"
+      ],
+      [
+        "Systolic blood pressure (SBP)",
+        "mmHg",
+        "123 ± 9",
+        "121 ± 10",
+        "121 ± 8",
+        "120 ± 8",
+        "0.128",
+        "0.489"
+      ],
+      [
+        "Diastolic blood pressure (DBP)",
+        "mmHg",
+        "83 ± 5",
+        "84 ± 6",
+        "84 ± 4",
+        "83 ± 2",
+        "0.236",
+        "0.311"
+      ]
+    ],
+    "caption": "The values of blood and metabolic parameters between the shift work (Case) and day work (Control) groups.",
+    "footnotes": "*Statistically significant relationship ( p -value < 0.05).",
+    "original_file": "data\\screened_candidates_154\\FC143-00207.xml",
+    "original_sha256": "d5752e6f5e13a209bfd8255dc3770daf7bbb72d0dd9eed9d37742a9f0d53ee4a"
+  },
+  {
+    "record_id": "FC143-00207",
+    "table_id": "Tab5",
+    "rows": [
+      [
+        "Parameter",
+        "Shift workers ( n = 204)",
+        "Day workers ( n = 204)"
+      ],
+      [
+        "Degree of freedom (df)",
+        "Test statistics (t)",
+        "p -value",
+        "Degree of freedom (df)",
+        "Test statistics (t)",
+        "p -value"
+      ],
+      [
+        "BMI",
+        "5.45",
+        "40.16",
+        "0.001*",
+        "6.56",
+        "36.54",
+        "0.001*"
+      ],
+      [
+        "WBC",
+        "4.36",
+        "30.55",
+        "0.001*",
+        "1.44",
+        "1.89",
+        "0.127"
+      ],
+      [
+        "RBC",
+        "1.13",
+        "0.516",
+        "0.436",
+        "1.02",
+        "0.41",
+        "0.514"
+      ],
+      [
+        "PLT",
+        "3.39",
+        "19.23",
+        "0.043",
+        "1.06",
+        "2.11",
+        "0.103"
+      ],
+      [
+        "TSH",
+        "3.88",
+        "23.64",
+        "0.025*",
+        "1.02",
+        "0.87",
+        "0.211"
+      ],
+      [
+        "FBS",
+        "5.13",
+        "32.55",
+        "0.001*",
+        "1.28",
+        "1.44",
+        "0.087"
+      ],
+      [
+        "Cr",
+        "3.54",
+        "21.56",
+        "0.026*",
+        "2.96",
+        "15.36",
+        "0.054"
+      ],
+      [
+        "Chol",
+        "1.23",
+        "1.15",
+        "0.127",
+        "1.11",
+        "1.07",
+        "0.314"
+      ],
+      [
+        "Tri",
+        "5.23",
+        "30.12",
+        "0.001*",
+        "3.05",
+        "6.54",
+        "0.064"
+      ],
+      [
+        "SGOT",
+        "6.78",
+        "36.54",
+        "0.001*",
+        "2.97",
+        "22.14",
+        "0.036*"
+      ],
+      [
+        "SGPT",
+        "5.13",
+        "27.50",
+        "0.001*",
+        "3.44",
+        "18.42",
+        "0.031*"
+      ],
+      [
+        "SBP",
+        "3.11",
+        "11.54",
+        "0.045*",
+        "1.26",
+        "1.07",
+        "0.129"
+      ],
+      [
+        "DBP",
+        "1.19",
+        "0.642",
+        "0.087",
+        "1.43",
+        "1.45",
+        "0.121"
+      ]
+    ],
+    "caption": "Significant values for the dependent parameters trends between the shift work and day work groups using Repeated Measure Analysis of Variance test.",
+    "footnotes": "*Statistically significant relationship ( p -value < 0.05).",
+    "original_file": "data\\screened_candidates_154\\FC143-00207.xml",
+    "original_sha256": "d5752e6f5e13a209bfd8255dc3770daf7bbb72d0dd9eed9d37742a9f0d53ee4a"
+  },
+  {
+    "record_id": "FC143-00208",
+    "table_id": "T2",
+    "rows": [
+      [
+        "Physical examinations and laboratory test",
+        "Total (n = 3,026)",
+        "Day workers (n = 1,094)",
+        "Shift workers (n = 1,932)",
+        "p -value"
+      ],
+      [
+        "SBP (mmHg)",
+        "129.60 ± 9.01",
+        "128.95 ± 8.59",
+        "129.97 ± 9.22",
+        "0.003"
+      ],
+      [
+        "DBP (mmHg)",
+        "80.54 ± 7.49",
+        "79.69 ± 7.36",
+        "81.03 ± 7.51",
+        "< 0.001"
+      ],
+      [
+        "FBS (mg/dL)",
+        "96.69 ± 8.53",
+        "96.69 ± 8.56",
+        "96.70 ± 8.51",
+        "0.967"
+      ],
+      [
+        "Total cholesterol (mg/dL)",
+        "194.17 ± 32.67",
+        "193.02 ± 33.03",
+        "194.82 ± 32.46",
+        "0.146"
+      ],
+      [
+        "LDL cholesterol (mg/dL)",
+        "128.50 ± 31.02",
+        "128.00 ± 31.44",
+        "128.78 ± 30.79",
+        "0.564"
+      ],
+      [
+        "TG (mg/dL)",
+        "140.43 ± 99.08",
+        "135.30 ± 109.77",
+        "143.34 ± 92.39",
+        "0.032"
+      ],
+      [
+        "HDL cholesterol (mg/dL)",
+        "53.86 ± 12.71",
+        "54.10 ± 12.88",
+        "53.72 ± 12.61",
+        "0.435"
+      ],
+      [
+        "TyG index",
+        "4.68 ± 0.28",
+        "4.66 ± 0.28",
+        "4.69 ± 0.27",
+        "< 0.001"
+      ]
+    ],
+    "caption": "Results of the physical examination and laboratory tests of the subjects by shift work",
+    "footnotes": "Values are presented as mean ± standard deviation. Calculated by Student’s t-test. SBP: systolic blood pressure; DBP: diastolic blood pressure; FBS: fasting blood sugar; LDL: low-density lipoprotein; TG: triglycerides; HDL: high-density lipoprotein; TyG index: triglycerides and glucose index.",
+    "original_file": "data\\screened_candidates_154\\FC143-00208.xml",
+    "original_sha256": "a09763bb204194ccfc235482e6a8a37f4674f13f769bd548c8060e820b65544f"
+  },
+  {
+    "record_id": "FC143-00217",
+    "table_id": "ijerph-20-05478-t005",
+    "rows": [
+      [
+        "",
+        "Baseline Median (p25–p75)",
+        "Follow-Up Median (p25–p75)",
+        "p -Value"
+      ],
+      [
+        "Weight (kg)",
+        "78 (62–87)",
+        "75 (62–86)",
+        "<0.001"
+      ],
+      [
+        "BMI",
+        "26.1 (24.0–30.1)",
+        "25.9 (23.5–29.7)",
+        "<0.001"
+      ],
+      [
+        "Max arterial pressure (mmHg)",
+        "130 (120–140)",
+        "120 (120–130)",
+        "<0.001"
+      ],
+      [
+        "Min arterial pressure (mmHg)",
+        "85 (80–92)",
+        "80 (75–80)",
+        "<0.001"
+      ],
+      [
+        "Abdomen circumference (cm)",
+        "90 (78–98)",
+        "89 (78–98)",
+        "0.018"
+      ],
+      [
+        "Hip circumference (cm)",
+        "98 (90–107)",
+        "98 (91–106)",
+        "0.248"
+      ],
+      [
+        "Waist/hip ratio",
+        "0.91 (0.87–0.96)",
+        "0.91 (0.85–0.95)",
+        "0.028"
+      ],
+      [
+        "Resistance",
+        "540.9 (488.8–600)",
+        "547.3 (489.8–601.7)",
+        "0.153"
+      ],
+      [
+        "Reactance",
+        "57.5 (50.7–64.2)",
+        "56.8 (51.5–62.3)",
+        "0.144"
+      ],
+      [
+        "Phase angle",
+        "6.1 (5.6–6.5)",
+        "6 (5.7–6.4)",
+        "0.056"
+      ],
+      [
+        "Fat-free mass",
+        "49.5 (45.1–57.7)",
+        "50.2 (44.5–58.9)",
+        "0.036"
+      ],
+      [
+        "Fat mass",
+        "23 (17.2–32)",
+        "21.5 (16.4–29.4)",
+        "0.091"
+      ]
+    ],
+    "caption": "Anthropometric indexes and bioelectrical impedance values of the 95 HW who completed the clinical phase, measured before and after the intervention.",
+    "footnotes": "p -values were computed using Wilcoxon signed-rank test. Significant results are highlighted in bold.",
+    "original_file": "data\\screened_candidates_154\\FC143-00217.xml",
+    "original_sha256": "9e44f372612535dd06cf1e1c27af176dcf6d8b1de4e28743690726b17126ecd1"
+  }
+]
