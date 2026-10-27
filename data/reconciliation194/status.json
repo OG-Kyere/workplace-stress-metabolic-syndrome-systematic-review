@@ -1,0 +1,27 @@
+{
+  "queue_records": 247,
+  "queue_file_sha256": "407979802527627e0de7b92148d15f76a85b39532e4ca542987940dd26825dcb",
+  "disposition_counts": {
+    "Available original; detailed extraction outstanding": 147,
+    "Original-source work deferred": 45,
+    "Existing specified findings recovered194": 9,
+    "New specified original-table findings195": 9,
+    "Prior narrative findings only": 37
+  },
+  "prior_numeric_rows_recovered": 40,
+  "prior_numeric_reports_recovered": 9,
+  "prior_narrative_reports_recovered": 46,
+  "new_specified_results_rows": 125,
+  "new_specified_reports": 9,
+  "reports_with_specified_rows_in_expanded_ledgers": 159,
+  "reports_without_specified_rows_in_these_ledgers": 229,
+  "active_originals_without_specified_rows": 184,
+  "original_source_gaps_deferred": 45,
+  "queue_source_hashes_verified": 247,
+  "queue_archived_originals_hash_verified": 202,
+  "review_pointer_checks": {
+    "Hash verified": 247
+  },
+  "all247_fully_extracted": false,
+  "independent_reviews_completed": 0
+}

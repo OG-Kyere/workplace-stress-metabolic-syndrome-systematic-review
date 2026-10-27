@@ -1,0 +1,23 @@
+{
+  "new_specified_clinical_rows": 122,
+  "new_reports_with_specified_rows": 11,
+  "new_rows_by_report": {
+    "PM03222": 2,
+    "PM03838": 40,
+    "PM04205": 8,
+    "PM04560": 4,
+    "SR141-0108": 24,
+    "SR141-0183": 2,
+    "SR141-0219": 6,
+    "SR141-0230": 6,
+    "SR141-0243": 12,
+    "SR141-0258": 12,
+    "SR141-0264": 6
+  },
+  "reports_with_rows_across_audit188_191_192": 133,
+  "reports_without_rows_in_these_sources": 255,
+  "original_source_hashes_verified": 11,
+  "explicit_quantitative_hold_rows": 20,
+  "full_extraction_certified": false,
+  "independent_reviews_completed": 0
+}

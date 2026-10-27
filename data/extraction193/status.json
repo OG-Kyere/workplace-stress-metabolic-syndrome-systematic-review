@@ -1,0 +1,20 @@
+{
+  "new_specified_clinical_rows": 103,
+  "new_reports_with_specified_rows": 8,
+  "new_rows_by_report": {
+    "FC143-00017": 8,
+    "FC143-00020": 12,
+    "FC143-00087": 30,
+    "FC143-00167": 18,
+    "FC143-00186": 11,
+    "FC143-00207": 16,
+    "FC143-00208": 5,
+    "FC143-00217": 3
+  },
+  "reports_with_rows_across_audit188_191_192_193": 141,
+  "reports_without_rows_in_these_sources": 247,
+  "original_source_hashes_verified": 8,
+  "explicit_quantitative_hold_rows": 11,
+  "full_extraction_certified": false,
+  "independent_reviews_completed": 0
+}

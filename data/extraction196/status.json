@@ -1,0 +1,40 @@
+{
+  "queue_records": 184,
+  "source_hashes_verified": 184,
+  "actual_formats": {
+    "XML": 162,
+    "HTML": 10,
+    "PDF": 12
+  },
+  "source_suffix_xml_recovered": 37,
+  "reports_with_candidate_rows": 165,
+  "clinical_candidate_rows": 5521,
+  "reports_with_clinical_result_passages": 163,
+  "reports_with_graphics_only_tables": 3,
+  "parse_failures": [],
+  "reports_without_candidate_rows": [
+    "FC143-00014",
+    "FC143-00952",
+    "FC143-01335",
+    "FC143-01365",
+    "FC143-01606",
+    "FC143-01971",
+    "FC143-02043",
+    "FC143-02366",
+    "PM00764",
+    "PM00765",
+    "PM00904",
+    "SC181-00083",
+    "SC181-00181",
+    "SC181-00256",
+    "SC181-00295",
+    "SC181-01084",
+    "SC181-01123",
+    "SR141-0104",
+    "SR141-0214"
+  ],
+  "all184_capture_attempted": true,
+  "all184_fully_extracted": false,
+  "normalized_result_coverage_unchanged": 159,
+  "independent_reviews_completed": 0
+}

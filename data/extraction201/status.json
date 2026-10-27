@@ -1,0 +1,13 @@
+{
+  "batch": "source-read clinical extraction 201",
+  "date": "2026-10-19",
+  "reports_source_checked": 3,
+  "new_structured_rows": 2,
+  "reports_newly_with_specified_rows": 1,
+  "reports_with_specified_rows_in_expanded_ledgers": 166,
+  "available_originals_without_specified_rows": 177,
+  "original_source_gaps_deferred": 45,
+  "independent_reviews_completed": 0,
+  "eligibility_adjudication_flags_added": 3,
+  "full_extraction_complete": false
+}

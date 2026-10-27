@@ -1,0 +1,30 @@
+{
+  "checkpoint": "eligibility reconciliation 203",
+  "date": "2026-10-27",
+  "source_occurrences": 9074,
+  "duplicates_removed": 3725,
+  "canonical_records_screened": 5349,
+  "title_abstract_exclusions": 4381,
+  "reports_sought": 968,
+  "reports_not_retrieved": 166,
+  "reports_available_full_text": 802,
+  "full_text_exclusions": 414,
+  "provisional_primary_inclusions": 387,
+  "unresolved_full_text_eligibility": 1,
+  "excluded_since_previous_checkpoint": [
+    {
+      "record_id": "FC143-00982",
+      "reason": "Wrong exposure/intervention: general BSRS-5 psychological distress rather than occupational/job stress"
+    }
+  ],
+  "archived_originals_in_primary_eligible_set": 342,
+  "primary_web_captures_without_verified_original_bytes": 2,
+  "review_evidence_original_source_gaps": 43,
+  "raw_reports_with_specified_results": 166,
+  "primary_eligible_reports_with_specified_results": 165,
+  "eligible_available_originals_without_specified_results": 177,
+  "eligible_original_source_gaps_deferred": 45,
+  "independent_reviews_completed": 0,
+  "study_family_count_frozen": false,
+  "prisma_counts_frozen": false
+}
